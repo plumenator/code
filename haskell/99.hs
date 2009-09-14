@@ -36,6 +36,8 @@ isPalindrome xs = xs == (reverse xs)
 
 -- Problem 7
 -- Flatten a nested list.
+-- * (my-flatten '(a (b (c d) e)))
+-- (A B C D E)
 -- TODO
 
 -- Problem 8
