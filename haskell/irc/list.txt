@@ -1,0 +1,827 @@
+21:28 *** plumenator JOIN
+21:28 *** TOPIC ["Real World Haskell: out now", "#haskell-in-depth
+                launched!", "Haskell News:
+                http://reddit.com/r/haskell", "The Haskell programming
+                language", "http://haskell.org", "Paste:
+                http://moonpatio.com", "Logs:
+                http://tunes.org/~nef/logs/haskell/"] (glguy on Mon
+                Mar  2 06:09:50 2009)
+21:28 *** NAMES plumenator flazz bavardage demolithion HugoDaniel
+                ulfdoz NEEDMOAR dodo_the_last1 hemulen_ jkff tibbe_
+                noddy corruptmemory arjanb gbacon elias` isaacd_ proq
+                Adamant maartenm gnuvince bos31337 bens amuck_
+                keseldude paulvisschers takuan SyntaxNinja automatical
+                travisbrady_ kynky mederEsite dml Pellwurst
+                arnihermann vinicius SamB jbauman perspectival
+                RayNbow` agib filipegarcia oal turjo Ivoz Apocalisp
+                erisco hzap macron Modius nathanic drhodes  saiam
+                Athas jml roadwarrior taruti electrogeek eelco
+                dodo_the_last iblechbot Alucard_Not_Orca gbeshers
+                Igloo ventol Lomono foo-nix gogonkt_ thingwath dfrey
+                macae jao smorg themroc- dreixel iago dolio wunki
+                dsouza bfig scjohnson rfmge neurogeek ravi_n weihsiu
+                bombshelter13_ camt jleedev lurkymclurkleton saml
+                edwardk jewel_ hackagebot aweber roconnor Renderwahn
+                tibbe Snark THC4k mxweas longh_ njbartlett trie hkBst
+                fons_ The-Kenny jdrake Saizan_  lorandi choener
+                noteventime jrib komar_ ikke cognominal fophillips
+                borism Bleadof Raynes dschoepe jauaor LeCamarade|Away
+                drbean hrehf Khisanth nvoorhies danvet Dewi_ blastbeat
+                rawrsy maxote blueonyx RayNbow skalnik Taejo hiratara
+                athos ColeSOAR shintah Dessous Cale dilinger facuman
+                synthase snurble shag ksf malumalu StoneToad pce
+                dobblego Associat0r malcolmw_ hjteoigj Sup3rkiddo
+                ftrvxmtrx LouisJB TheRealMarko amuck doserj Tarrant
+                igel jpcooper  Jedai s_p yowgi copumpkin int-e
+                Guest33841 master_of_master ChillIX Mitar niksnut
+                Beelsebob sully agentzh Nereid alexsuraci Paradox924X
+                twanvl s76 Draconx|Laptop sm portnov zakwilson
+                CESSMASTER SamB_XP bos caligula__ otto_s_ sioraiocht
+                Petrosian` Berengal Axman6 eno tew88 jensen_ profmakx
+                EvilTerran endojelly scook0 triplez mbz_ droidcore
+                sjanssen angelixd fredma lpsmith DarthArachides kaol
+                xinming_ Fairweather delYsid kniu Gracenotes
+                zong_sharo  pikhq nohluhtC paolino converter Twey
+                mightybyte ttt-- nlogax kpreid rdd raxas encryptio_
+                mmmulani danopia` jayzer Poeir Smurf__ jfredett tromp
+                aluink quaestor thetallguy Counter-Strike ajhager
+                enolan sphericalchicken mfp ac PsiOmega Ferdirand TR2N
+                byorgey dumbterm jakeplay opqdonut BONUS thou_ gnufied
+                loupgaroublond Elly djinni ponzao___ jvogel ray
+                randomity AndyP mrd xci Heffalump ksandstr fnordus
+                cods loop_ Sisu Salve octavious jmillikin  tltstc
+                stroan porpoise matthew-_ wjt whoppix MarcWeber otulp
+                tomlok eyck greap JaffaCake1 polux kolmodin mauke
+                gfarfl lunabot lefant mjrosenb Elench Twigathy
+                mike-burns dionoea marmolak hellige MyCatVerbs
+                Anthraxx LeoD Schmidt Hong_MinHee Rembane2 lispy icee
+                newsham pettter Philippa nominolo|uni J11 Tomas
+                malouin coCocoa|sleeping authentic agemo poucet kar-1
+                koeien atubbs bohanlon hiredman mornfall PHO__ sutats
+                Mr_Awesome zsol gdsx woggle  bryno mansour benmachine
+                tessier OnionKnight_ dibblego deech mkfort jrick
+                sbahra ath orbitz peddie_ te yahooooo stepnem Boney
+                Trafalgard cizra bd_ Maddas ToRA kadoban ennen
+                mikezackles Plouj- spoop pragma_ binrapt ronghail
+                dcoutts Lemmih ski SimonRC Arnar thoughtpolice
+                arjanoosting Baughn ClaudiusMaximus FauxFaux trez
+                tarbo inimino ahf Ginzor Ge0rge deavid regulate karld
+                Jiten ville Ivatar lanaer m-i-l-a-n maskd Gilly_
+                equanimity @ChanServ  alexbobp gpolo stevan glith_
+                liyang Aisling gOcOOl nnunley raimo ibid yottis
+                koninkje_away Deewiant pcc1 neurocyte canvon nablaa
+                __marius__ Badger frederik Vulpyne issal_ tensh_
+                BrianHV mae felipe_ dfranke juhp Hunner miasma deiga
+                freedrull xian Raevel periodic choko Michitux Vanadium
+                ziman sebbe1991 ido sad0ur kmatlage Reiver quarks
+                jones- Laney suiside DRMacIver epokal daf lostman_
+                shachaf davidL kalven sunnavy liwp Nanar kosmikus
+                klugez  Shurique mattam andrewsw mux clanehin rey_
+                jlaire preflex badsheepy Tobsan kokekola sgwizdak
+                tra26 epmf luite emg-2 flux d3z Valodim CuriousTrain
+                cjay yango mixis purplepenguins JuanDaugherty Blub\0
+                araujo earthy CalJohn PeakerWork anji etpace_ olsner
+                AnMaster Tsion mlh meder tavelram Draconx det michie1
+                osfameron lilac clog aempirei ski_ desp Jaak Japsu
+                Warrigal Gabbie ytshen_ _dls dfeuer dancor zaarg
+                _Jordan_ kapil bind_return p_l solrize  Ycros
+                allbery_b mr_mg Peaker crem ertai nwf jvoorhis
+                thirsteh dankna nimred tmoertel_away nothingmuch mml`
+                ErhardtMundt bremner zrk fishey dsturnbull wagle
+                harlekin dino- dixie User6067 jrockway lambdabot
+                tonyIII sbok guerby mm_freak netcat kayess Taggnostr
+                Vq^ quicksilver boyscared QPlaty[HireMe] dr4wd3
+                reqamst gwern timonator mle TML smg integral majoh
+                magicman|gonne hesselink atsampson welterde Liskni_si
+                C-Keen Chile dogmaT Botje Pistahh  aavogt ehamberg
+                mgs` chr1s sebas_ dons impl erk burp snhmib McManiaC
+                Sargun_screen joga laz0r thomastc TML-prv sciendan
+                nipuL r0bby kennyv dqd Nafai jlouis saccade mapreduce
+                joed DrSyzygy gereedy Asztal ski__ bran_ noj anders^^
+                wli thedward codemac ArneB koala_man edwinb tomaw- t
+                nornagon dumael ingy Lstor lament _br__ liesen Ornedan
+                omnihil idnar mercury^ Stephan202 faXx tuukkah Zao  
+21:28 -ChanServ- [#haskell] logs @ http://tunes.org/~nef/logs/haskell/
+                 - we put the funk in funktion
+21:28 *** 328 #haskell http://www.haskell.org/
+21:28 *** mreh JOIN
+21:28 <EvilTerran> > map (head &&& length) . group $
+                   [2,2,5,5,5,1,4,4,0,2,2]
+21:28 <lambdabot>   [(2,2),(5,3),(1,1),(4,2),(0,1),(2,2)]
+21:28 <bavardage> ooh, arrows eh?
+21:29 <plumenator> I know that (++) appends two lists, what is the
+                   operator for inserting an element in the
+                   beginning(or end) of a list?
+21:29 <Saizan_> (&&&) = \f g x -> (f x, g x) there
+21:29 *** hemulen_ QUIT Read error: 113 (No route to host)
+21:29 <bavardage> yop
+21:29 <bavardage> ty
+21:29 <pikhq> plumenator: (:)
+21:29 <plumenator> (:) as in a:[a] doesn't seem to be an operator.
+21:29 <Saizan_> it is
+21:29 <Saizan_> ?type (:)
+21:30 <lambdabot> forall a. a -> [a] -> [a]
+21:30 <Saizan_> > 'a':"bc"
+21:30 <lambdabot>   "abc"
+21:30 <Axman6> plumenator: it's a function, and a constructor
+21:30 <Baughn> plumenator: : is a function that prepends an element to
+               a list. There is none to append one, as such
+21:30 <Vanadium> Is it also an operator when it is used in pattern
+                 matching?
+21:30 <Axman6> constructors are functions in haskell
+21:30 <Vanadium> Or is it a constructor then?
+21:30 <Saizan_> > 'a':'b':'c':[]
+21:30 <lambdabot>   "abc"
+21:30 <Baughn> plumenator: list ++ [a] will do it, but you should
+               rarely actually do so. It needs to copy the entire list
+               to do that.
+21:30 <Saizan_> Vanadium: constructors can be operators or not
+21:30 <Baughn> Vanadium: Constructors are functions, not all functions
+               are constructors
+21:31 <desp> How can I make the whole "class MyVector v" an instance
+             of Num?
+21:31 <EvilTerran> all operators are functions; all constructors are
+                   functions
+21:31 <Baughn> You can only pattern-match on constructors. As it
+               happens, : is a constructor
+21:31 <Saizan_> Vanadium: contructors that are operators must start
+                with :
+21:31 <jkff> ':' is name of the Cons constructor. Since it is a
+             constructor, it can be used both for pattern matching and
+             as a function.
+21:31 <jkff> desp: How about "instance (MyVector v) => Num v where
+             ..." ?
+21:31 *** tibbe QUIT Read error: 110 (Connection timed out)
+21:32 <jkff> @users
+21:32 <lambdabot> Maximum users seen in #haskell: 658, currently: 626
+                  (95.1%), active: 18 (2.9%)
+21:32 <jkff> Not bad
+21:33 <EvilTerran> jkff / desp, the problem with that is that it'd be
+                   an undecidable instance, and it'd overlap all other
+                   Num instances
+21:33 *** SyntaxNinja QUIT "Leaving."
+21:33 <plumenator> Hmm, how come hoogle doesn't return any results for
+                   "(:) :: a -> [a] -> [a]"?
+21:33 <mreh> do they discuss language parsing on freenode?
+21:33 <EvilTerran> ?hoogle (:)
+21:33 <lambdabot> Parse error:
+21:33 <lambdabot>   --count=20 (:)
+21:33 <lambdabot>               ^
+21:33 <EvilTerran> hm.
+21:33 <jkff> EvilTerran: True.
+21:33 *** vxr_ JOIN
+21:34 <desp> EvilTerran: right, you mentioned that before.  I don't
+             understand why would it be undecidable and what does that
+             mean in practice, though.
+21:34 *** gnuvince QUIT Read error: 113 (No route to host)
+21:34 *** rawrsy QUIT Read error: 110 (Connection timed out)
+21:34 <jkff> btw, I can't resist the temptation to boast: this
+             semester I taught a course in functional programming, and
+             a couple of days ago students rated the course 5.1 out of
+             5 (some rated it 5.5). I'm rather delighted that they
+             liked functional programming so much :)
+21:35 *** hemulen JOIN
+21:35 *** ftrvxmtrx QUIT "X__x"
+21:35 <mapreduce> I guess they're better at FP than maths then.
+21:35 <desp> :)
+21:35 *** Alucard_Not_Orca QUIT
+21:35 <jkff> mapreduce: Why?
+21:35 <mapreduce> Because 5.5 is invalid in an "out of 5" measurement.
+21:36 *** yairchu JOIN
+21:36 <Vanadium> Would that end up being a type error?
+21:36 <mapreduce> If you had a type that only accepted numbers less
+                  than or equal to 5, sure.
+21:36 <desp> Is there a in-source flag for enabling undecidable
+             instances?
+21:36 <jkff> Well, they abused the lack of a typechecker, then :)
+21:36 <EvilTerran> desp, basically, in an instance decleration, the
+                   context (to the left of the =>) has to be simpler
+                   than the head (to the right of the =>)
+21:36 <jkff> After all, the course was based on Scheme rather than on
+             Haskell
+21:36 *** icqn JOIN
+21:37 <mapreduce> jkff: Did set! make it in?
+21:37 *** ColeSOAR QUIT Read error: 104 (Connection reset by peer)
+21:37 *** dodo_the_last QUIT Connection timed out
+21:37 <jkff> mapreduce: It did, as it did into SICP. The course was
+             based on SICP + many additions from areas not covered
+             there
+21:37 *** ColeSOAR JOIN
+21:37 <EvilTerran> desp, this being a fairly primative way of ensuring
+                   that instance resoultion always terminates
+21:37 <mapreduce> I used to teach but couldn't get out of Perl and
+                  Java before getting fed up and leaving.
+21:37 <EvilTerran> desp, you can enable it with {-# LANGUAGE
+                   UndecidableInstances #-}
+21:38 <mapreduce> jkff: Fair enough, sounds fun.
+21:38 *** travisbrady_ QUIT
+21:38 <desp> EvilTerran: thanks.
+21:38 /part
+21:38 *** plumenator PART #haskell "rcirc on GNU Emacs 22.2.1"
+21:38 /quit
+21:38 !!! Closing Link: 59.164.66.154 ("rcirc on GNU Emacs 22.2.1")
+21:58 *** plumenator JOIN
+21:58 *** TOPIC ["Real World Haskell: out now", "#haskell-in-depth
+                launched!", "Haskell News:
+                http://reddit.com/r/haskell", "The Haskell programming
+                language", "http://haskell.org", "Paste:
+                http://moonpatio.com", "Logs:
+                http://tunes.org/~nef/logs/haskell/"] (glguy on Mon
+                Mar  2 06:09:50 2009)
+21:58 *** NAMES plumenator trofi mreh paul424 yairchu waterman
+                angelixd QplQyer heavensrevenge Schmallon bgs100
+                dodo_the_last gnuvince octaviou1 bavardag1 tibbe
+                Rembane JaffaCake wmealing Twey mpwd hemulen_ Nebasuke
+                ddvlad ColeSOAR icqn vxr_ flazz demolithion HugoDaniel
+                ulfdoz NEEDMOAR jkff tibbe_ noddy corruptmemory arjanb
+                gbacon elias` proq Adamant bos31337 bens amuck_
+                keseldude paulvisschers automatical kynky mederEsite
+                dml Pellwurst arnihermann vinicius  SamB jbauman
+                perspectival RayNbow` agib filipegarcia turjo Ivoz
+                Apocalisp erisco macron Modius nathanic drhodes saiam
+                Athas jml roadwarrior taruti electrogeek eelco
+                iblechbot gbeshers Igloo ventol Lomono foo-nix gogonkt
+                thingwath dfrey macae jao smorg themroc- dreixel iago
+                dolio wunki dsouza bfig scjohnson rfmge neurogeek
+                ravi_n weihsiu bombshelter13_ camt jleedev
+                lurkymclurkleton saml edwardk jewel_ hackagebot aweber
+                roconnor Renderwahn  Snark THC4k mxweas longh_
+                njbartlett trie hkBst fons_ The-Kenny jdrake Saizan_
+                lorandi choener noteventime jrib komar_ ikke
+                cognominal fophillips borism Bleadof Raynes dschoepe
+                jauaor LeCamarade|Away drbean hrehf Khisanth nvoorhies
+                danvet Dewi_ blastbeat maxote blueonyx RayNbow skalnik
+                Taejo hiratar_away athos shintah Dessous Cale dilinger
+                facuman synthase snurble ksf malumalu StoneToad pce
+                dobblego Associat0r malcolmw_ hjteoigj LouisJB  amuck
+                doserj Tarrant igel jpcooper Jedai s_p copumpkin int-e
+                Guest33841 master_of_master ChillIX Mitar niksnut
+                Beelsebob sully agentzh Nereid alexsuraci Paradox924X
+                twanvl s76 Draconx|Laptop sm portnov zakwilson
+                CESSMASTER SamB_XP bos caligula__ otto_s_ sioraiocht
+                Petrosian` Berengal Axman6 eno tew88 jensen_ profmakx
+                EvilTerran endojelly scook0 triplez mbz_ droidcore
+                sjanssen fredma lpsmith DarthArachides kaol xinming_
+                Fairweather delYsid  kniu Gracenotes zong_sharo pikhq
+                nohluhtC paolino converter mightybyte ttt-- nlogax
+                kpreid rdd raxas encryptio_ mmmulani danopia` jayzer
+                Poeir Smurf__ jfredett tromp aluink quaestor
+                thetallguy Counter-Strike ajhager enolan
+                sphericalchicken mfp ac PsiOmega Ferdirand TR2N
+                byorgey dumbterm jakeplay opqdonut BONUS thou_ gnufied
+                loupgaroublond Elly djinni ponzao___ jvogel ray
+                randomity AndyP mrd xci Heffalump ksandstr fnordus
+                cods loop_ Sisu  Salve jmillikin tltstc stroan
+                porpoise matthew-_ wjt whoppix MarcWeber otulp tomlok
+                eyck greap JaffaCake1 polux kolmodin mauke gfarfl
+                lunabot lefant mjrosenb Elench Twigathy mike-burns
+                dionoea marmolak hellige MyCatVerbs Anthraxx LeoD
+                Schmidt Hong_MinHee poucet lispy icee newsham pettter
+                Philippa nominolo|uni J11 Tomas malouin
+                coCocoa|sleeping authentic agemo koeien kar-1 atubbs
+                bohanlon hiredman mornfall PHO__ sutats Mr_Awesome
+                zsol gdsx  woggle bryno mansour benmachine tessier
+                OnionKnight_ dibblego deech mkfort jrick sbahra ath
+                orbitz peddie_ te yahooooo stepnem Boney Trafalgard
+                cizra bd_ Maddas ToRA kadoban ennen mikezackles Plouj-
+                spoop pragma_ binrapt ronghail dcoutts Lemmih ski
+                SimonRC Arnar thoughtpolice arjanoosting Baughn
+                ClaudiusMaximus FauxFaux trez tarbo inimino ahf Ginzor
+                Ge0rge deavid regulate karld Jiten ville Ivatar lanaer
+                m-i-l-a-n maskd Gilly_ equanimity  @ChanServ alexbobp
+                gpolo stevan glith_ liyang Aisling gOcOOl nnunley
+                raimo ibid yottis koninkje_away Deewiant pcc1
+                neurocyte canvon nablaa __marius__ Badger frederik
+                Vulpyne issal_ tensh_ BrianHV mae felipe_ dfranke juhp
+                Hunner miasma deiga freedrull xian Raevel periodic
+                choko Michitux Vanadium ziman sebbe1991 ido sad0ur
+                kmatlage Reiver quarks jones- Laney suiside DRMacIver
+                epokal daf lostman_ shachaf davidL kalven sunnavy liwp
+                Nanar kosmikus  klugez Shurique mattam andrewsw mux
+                clanehin rey_ jlaire preflex badsheepy Tobsan kokekola
+                sgwizdak tra26 epmf luite emg-2 flux d3z Valodim
+                CuriousTrain cjay yango mixis purplepenguins
+                JuanDaugherty Blub\0 araujo earthy CalJohn PeakerWork
+                anji etpace_ olsner AnMaster Tsion mlh meder tavelram
+                Draconx det michie1 osfameron lilac clog aempirei ski_
+                desp Jaak Japsu Warrigal Gabbie ytshen_ _dls dfeuer
+                dancor zaarg _Jordan_ kapil bind_return  p_l solrize
+                Ycros allbery_b mr_mg Peaker crem ertai nwf jvoorhis
+                thirsteh dankna nimred tmoertel_away nothingmuch mml`
+                ErhardtMundt bremner zrk fishey dsturnbull wagle
+                harlekin dino- dixie User6067 jrockway lambdabot
+                tonyIII sbok guerby mm_freak netcat kayess Taggnostr
+                Vq^ quicksilver boyscared QPlaty[HireMe] dr4wd3
+                reqamst gwern timonator mle TML smg integral majoh
+                magicman|gonne hesselink atsampson welterde Liskni_si
+                C-Keen Chile dogmaT  Botje Pistahh aavogt ehamberg
+                mgs` chr1s sebas_ dons impl erk burp snhmib McManiaC
+                Sargun_screen joga laz0r thomastc TML-prv sciendan
+                nipuL r0bby kennyv dqd Nafai jlouis saccade mapreduce
+                joed DrSyzygy gereedy Asztal ski__ bran_ noj anders^^
+                wli thedward codemac ArneB koala_man edwinb tomaw- t
+                nornagon dumael Zao tuukkah faXx Stephan202 mercury^
+                idnar lament Lstor ingy _br__ liesen Ornedan omnihil  
+21:58 -ChanServ- [#haskell] logs @ http://tunes.org/~nef/logs/haskell/
+                 - we put the funk in funktion
+21:58 *** 328 #haskell http://www.haskell.org/
+21:59 *** tibbe__ JOIN
+21:59 <plumenator> Why can't Haskell have a "show" method for
+                   functions like in Python?
+21:59 *** dpro JOIN
+22:00 <jpcooper> plumenator, what is it like in Python?
+22:00 <Vanadium> Probably because most of the time you do not want to
+                 show functions
+22:00 <Vanadium> and would rather have the compiler point out the
+                 error
+22:00 <saml> plumenator, there are so many different types of
+             functions
+22:00 <plumenator> Well, in Python everything has a show method.
+22:00 <plumenator> Even classes.
+22:00 <Beelsebob> plumenator: ecause it would break referential
+                  transparency
+22:00 <saml> maybe instance Show  (->)
+22:00 <Beelsebob> plumenator: if the same function is applied to the
+                  same arguments it should have the same result
+22:01 <Beelsebob> but function equality can't be computed
+22:01 <Beelsebob> so the best you can do is print the same thing for
+                  all functions
+22:01 <saml> Showable != Readable right?
+22:01 [Beelsebob nods]
+22:01 *** tibbe_ QUIT Read error: 110 (Connection timed out)
+22:01 <doserj> Beelsebob: you can do better, like printing the type of
+               the function
+22:02 <Beelsebob> oh, true
+22:02 <plumenator> Well, the output could jsut say its a function and
+                   print its type, maybe?
+22:02 *** demolithion QUIT "leaving"
+22:02 <saml> > show (+)
+22:02 <lambdabot>   Overlapping instances for GHC.Show.Show (a -> a ->
+                  a)
+22:02 <lambdabot>    arising from a use...
+22:02 <Beelsebob> plumenator: well, there's a show for functions that
+                  returns "<function>" somewhere
+22:02 <tibbe__> Text.Show.Function
+22:02 [themroc- <3 haskell]
+22:03 <bavardag1> it would be nice in GCHI for example
+22:03 <bavardag1> just to print <function>
+22:03 <plumenator> I ask this question because it is difficult to
+                   decipher the error message ghci displays when I
+                   supply less than enough arguments.
+22:03 <jpcooper> what would the result be?
+22:03 *** jao QUIT Read error: 110 (Connection timed out)
+22:03 *** kowey JOIN
+22:03 <Beelsebob> bavardag1: tbh, I prefer ghc telling me what the
+                  type of the function is in the exceptin
+22:04 <bavardag1> perhaps then something like <function> [type
+                  signature]
+22:04 <bavardag1> rather than some huge exception
+22:04 <plumenator> yeah
+22:04 *** heavensrevenge QUIT
+22:04 *** TaucherMK JOIN
+22:04 <bavardag1> Prelude> map
+22:04 <bavardag1> map :: (a -> b) -> [a] -> [b]
+22:04 <bavardag1> like that
+22:04 <plumenator> bavardag1: you read my mind.
+22:05 <Beelsebob> bavardag1: it couldn't print map
+22:05 <bavardag1> hmm?
+22:05 <Beelsebob> well, I could then give an equal function
+22:05 <Beelsebob> and it would give jam :: ...
+22:05 <pikhq> :t map -- works in ghci
+22:05 <lambdabot> forall a b. (a -> b) -> [a] -> [b]
+22:05 <Beelsebob> or spam :: ...
+22:05 <Beelsebob> which breaks referential transparency
+22:05 <bavardag1> hmmm
+22:06 <bavardag1> I guess
+22:06 <bavardag1> well no, GCHI could just, in the case of Show
+                  breaking
+22:06 <Beelsebob> also, it would have to be very careful to always
+                  give the type in exactly the same form
+22:06 <bavardag1> instead just show :t
+22:06 *** heavensrevenge JOIN
+22:06 <Beelsebob> no matter what input its given
+22:06 *** hemulen JOIN
+22:06 <bavardag1> but for gchi, anything would be better than the
+                  current OMG
+22:07 <bavardag1> maybe just condense it down
+22:07 *** troutwine JOIN
+22:08 *** bavardag1 NICK bavardage
+22:08 <plumenator> Beelsebob: I don't understand how referential
+                   transparency comes into the pucture here.
+22:08 *** JaffaCake1 QUIT Read error: 110 (Connection timed out)
+22:08 <Beelsebob> plumenator: referential transparency says that given
+                  the same arguments, I must get the same result
+22:08 <Beelsebob> suppose I define spam = map
+22:08 <Beelsebob> spam and map are equal
+22:08 <plumenator> yeah
+22:08 <plumenator> and they have the same type.
+22:08 <Beelsebob> so applying show to spam, and to map must give the
+                  same result
+22:09 <Beelsebob> but under the proposal above one would give "spam ::
+                  ..."
+22:09 <Beelsebob> while the other would give "map :: ..."
+22:09 <Beelsebob> so you can't name the function
+22:09 *** Adamant QUIT Connection timed out
+22:09 <plumenator> Hmm.
+22:09 <Beelsebob> you'd need to give "<function> :: ..." no matter
+                  what
+22:09 *** snurble QUIT Read error: 104 (Connection reset by peer)
+22:09 *** LouisJB QUIT
+22:09 <plumenator> I guess type is enough then.
+22:10 *** snurble JOIN
+22:10 <Saizan_> Beelsebob: well, for a tool/debugging purpouses i
+                don't see a problem with breaking that
+22:10 <Beelsebob> Saizan_: right
+22:11 <Beelsebob> but I wouldn't want it in the Show instance
+22:11 <plumenator> Python prints this: <function f at 0x7f60d579d5f0>
+22:11 <Beelsebob> just in whatever tool was doing the debugging etc
+22:11 *** Alucard_Not_Orca JOIN
+22:11 *** dodo_the_last QUIT Read error: 54 (Connection reset by peer)
+22:12 <bavardage> Beelsebob: referential transparency is moot
+22:12 *** dodo_the_last JOIN
+22:12 <bavardage> this is not about Show
+22:13 <Beelsebob> huh?
+22:13 <bavardage> just as a sane default for gchi
+22:13 <bavardage> *ghci
+22:13 <Beelsebob> wut?
+22:13 <jkff> Who needs referential transparency? instance Eq a where
+             (==) = reallyUnsafePointerEq#
+22:13 <bavardage> Beelsebob: so, when I'm hacking away in ghci and I
+                  forget a :t or something
+22:13 *** sayyestolife JOIN
+22:13 <bavardage> instead of getting a 5 line exception NO INSTANCE
+                  FOR SHOW FOR (
+22:14 <bavardage> (a->b) -> [a] -> [b]
+22:14 *** monochrom JOIN
+22:14 <bavardage> [... another 5 lines]
+22:14 <bavardage> I just get the type shown
+22:14 <Beelsebob> well sure -- but that *is* to do with show
+22:14 <Beelsebob> because ghci runs print $ your expression
+22:14 *** woggle QUIT Read error: 110 (Connection timed out)
+22:14 <bavardage> yes ofc
+22:14 <bavardage> but it can catch the exception
+22:14 <bavardage> I'm not saying put it into the show instance
+22:14 <Ferdirand> even if showing functions is questionable, it would
+                  be nice if the compiler could derive Show by itself
+                  for a record that contains functions
+22:14 <jkff> bavardage: To my mind, consistency and predictability are
+             way more important than conveniency of certain special
+             cases.
+22:14 <Beelsebob> having said that, what you asked for there is
+                  entirely acceptable as a Show instance
+22:14 <dolio> You can't get show to produce (a -> b) -> [a] -> [b],
+              though.
+22:15 <bavardage> I'm not talking about Show :|
+22:15 *** tibbe QUIT Read error: 110 (Connection timed out)
+22:15 <jkff> ghci is consistent in that it always checks the type of
+             an expression if you ask it to evaluate an expression.
+22:15 [Beelsebob nods]
+22:15 <bavardage> I'm talking about nicer defaults for ghci
+22:15 <bavardage> hmmm
+22:15 <bavardage> maybe a command line switch
+22:15 <jkff> Why the hell should it treat functions specially?
+22:15 <jkff> T.i. different from other types
+22:15 *** hemulen_ QUIT Success
+22:15 <bavardage> because it's ugly
+22:15 <monochrom> Natural languages emphasize convenice of special
+                  cases.
+22:15 <jkff> Being inconsistent is more ugly
+22:16 <Beelsebob> indeed
+22:16 <PeakerWork> Berengal: what is the case you're talking about?
+22:16 *** Renderwahn QUIT Read error: 54 (Connection reset by peer)
+22:16 <Beelsebob> personally I value ghci doing the same thing every
+                  time I type something in over getting a 1 line error
+                  instead of a 5 line one
+22:16 <bavardage> but it will do the same thing :|
+22:16 <bavardage> just catch the show failure
+22:16 <Beelsebob> no it won't
+22:16 <bavardage> and treat it more nicely
+22:16 <Berengal> PeakerWork: What?
+22:16 <Beelsebob> but it's not a show failure
+22:16 <Beelsebob> show never gets run atm
+22:16 <PeakerWork> oops
+22:16 <Beelsebob> no code gets run
+22:16 <bavardage> 'no instance for show for ...'
+22:17 <bavardage> oic
+22:17 <PeakerWork> bavardage: what is the case you're talking about?
+22:17 <Beelsebob> bavardage: which is a type error
+22:17 <PeakerWork> Berengal: wrong guy
+22:17 <Beelsebob> not an excepttion
+22:17 <Beelsebob> exception*
+22:17 <jkff> Why should a type checking failure for the Show class
+             should be treated separately from other type checking
+             failures?
+22:17 <bavardage> fine
+22:17 [Berengal lost his zone :(]
+22:17 <bavardage> I see your point
+22:17 <bavardage> it would still be nicer :P
+22:17 *** travisbrady JOIN
+22:17 <PeakerWork> bavardage: what would be nicer?
+22:17 <bavardage> no 5 line error message
+22:18 <bavardage> but I'm not going to convince anyone, so I concede
+22:18 <Beelsebob> having said that... something ghci could do
+                  nicer....
+22:18 <Beelsebob> is print a better error message for that type
+                  checker failure
+22:18 <doserj> jkff: because it ia a pure accidental implementation
+               detail that ghci type-checks (show x), when you input x
+22:18 <Beelsebob> there's no need for it to be 5 lines long
+22:18 <monochrom> ghci being a REPL kinds of make Show special, it's
+                  for the P part. a REL would not need to do this. :)
+22:18 *** demolithion JOIN
+22:18 <bavardage> even just turning it into 'No instance for (Show ((a
+                  -> b) -> [a] -> [b]))'
+22:19 <bavardage> just using only that line for an error message would
+                  suffice
+22:19 <dolio> Actually, maybe I should mention that you probably can
+              get show to produce something like "(a -> b) -> [a] ->
+              [b]", but it involves overlapping and incoherent
+              instances.
+22:19 <PeakerWork> bavardage: what 5 line error message are you
+                   talking about?
+22:19 <Beelsebob> bavardage: quite
+22:19 <bavardage> i'll pastebin
+22:19 <doserj> jkff: ghci already treats values of type IO a
+               differently
+22:19 <bavardage> http://pastebin.com/m7e4d77bf
+22:19 <Beelsebob> Peaker: the one you get if you forget an argument
+                  and ask ghci to print a function
+22:19 <bavardage> it's over 5 lines :P
+22:19 <Beelsebob> > map
+22:19 <lambdabot>   Overlapping instances for GHC.Show.Show ((a -> b)
+                  -> [a] -> [b])
+22:19 <lambdabot>    arising...
+22:19 <gwern> @remember RobertGreaye Some suggest the original English
+              remained in Britain when the North Americas by the
+              British settlers, leaving a pale imitation back in
+              Britain. The truth is much stranger: the original
+              English was actually smuggled out of Britain to the West
+              Indies in a wardrobe
+22:19 <lambdabot> It is forever etched in my memory.
+22:19 <PeakerWork> Beelsebob: ah. It could have special case for
+                   printing stuff, as it does already special case
+                   actions vs non-actions
+22:19 <gwern> @quote wardrobe
+22:20 <lambdabot> RobertGreaye says: Some suggest the original English
+                  remained in Britain when the North Americas by the
+                  British settlers, leaving a pale imitation back in
+                  Britain. The truth is much stranger: the
+22:20 <lambdabot> original English was actually smuggled out of
+                  Britain to the West Indies in a wardrobe
+22:20 <jkff> doserj: The function of REPL is to evaluate and print,
+             which is well-established and consistent across all REPLs
+             for all languages around, so there's not much
+             inconsistency here (although there is some). I also agree
+             about IO: I would not object if for IO I had to tell ghci
+             "runIO ..."
+22:20 *** rey_ QUIT Read error: 60 (Operation timed out)
+22:20 <Beelsebob> Peaker: quite
+22:20 *** ftrvxmtrx JOIN
+22:20 <jkff> Hm, probably not. runIO would not introduce any
+             consistency
+22:20 <doserj> the purpose of ghci is to be useful and convenient, not
+               "to be a REPL"
+22:20 <bavardage> right, off this tangent
+22:20 *** aik JOIN
+22:21 <bavardage> what's a better way of doing this?
+22:21 <bavardage> digits n = map (\c -> read (c:[])) $ show n
+22:21 <bavardage> oh, digits :: Int -> [Int]
+22:21 <EvilTerran> ?hoogle digitToInt
+22:21 <lambdabot> Data.Char digitToInt :: Char -> Int
+22:21 <bavardage> ooh
+22:21 *** SyntaxNinja JOIN
+22:21 <Baughn> > digitToInt 'a'
+22:21 <lambdabot>   10
+22:22 *** Renderwahn JOIN
+22:22 *** WoofWoof JOIN
+22:22 <bavardage> so then just digits = map digitToInt . show
+22:22 <PeakerWork> Beelsebob: ghci could have:  IO a -> execute action
+                   and recursively continue with the "a".   Show a =>
+                   a  -> stringify it and print it.      Otherwise:
+                   Print "Unshowable: <type of value>"
+22:22 <Berengal> Haskell is a compiled language, ghci is there to aid
+                 with the creation of source code. It makes sense to
+                 me at least that ghci isn't completely faithful to
+                 the language to the benefit of conveniently checking
+                 things out
+22:23 *** WoofWoof NICK Woof
+22:23 <PeakerWork> this would mean that IO (IO (IO a)) would execute
+                   multiple actions though :)
+22:23 *** filipegarcia QUIT Read error: 113 (No route to host)
+22:23 *** Nereid_ JOIN
+22:23 *** rgr JOIN
+22:23 *** plumenator PART #haskell "rcirc on GNU Emacs 22.2.1"
+22:39 *** plumenator JOIN
+22:39 *** TOPIC ["Real World Haskell: out now", "#haskell-in-depth
+                launched!", "Haskell News:
+                http://reddit.com/r/haskell", "The Haskell programming
+                language", "http://haskell.org", "Paste:
+                http://moonpatio.com", "Logs:
+                http://tunes.org/~nef/logs/haskell/"] (glguy on Mon
+                Mar  2 06:09:50 2009)
+22:39 *** NAMES plumenator conal solidsnack jims wchogg tibbe rgr Woof
+                Renderwahn SyntaxNinja aik ftrvxmtrx demolithion
+                travisbrady monochrom dodo_the_last Alucard_Not_Orca
+                snurble troutwine hemulen heavensrevenge TaucherMK
+                dpro trofi mreh paul424 yairchu waterman angelixd
+                QplQyer Schmallon bgs100 gnuvince octaviou1 bavardage
+                Rembane JaffaCake wmealing Twey mpwd Nebasuke ddvlad
+                ColeSOAR icqn vxr_ flazz HugoDaniel ulfdoz NEEDMOAR
+                noddy corruptmemory arjanb  gbacon elias` proq
+                bos31337 bens amuck_ keseldude paulvisschers
+                automatical kynky mederEsite dml Pellwurst arnihermann
+                vinicius SamB jbauman perspectival RayNbow` agib turjo
+                Ivoz Apocalisp erisco macron Modius nathanic drhodes
+                saiam Athas jml roadwarrior taruti electrogeek eelco
+                iblechbot gbeshers Igloo ventol Lomono foo-nix gogonkt
+                thingwath dfrey macae smorg themroc- dreixel iago
+                dolio wunki dsouza bfig scjohnson rfmge neurogeek
+                ravi_n  bombshelter13_ camt jleedev lurkymclurkleton
+                saml edwardk jewel_ hackagebot aweber roconnor Snark
+                THC4k mxweas longh_ njbartlett trie hkBst fons_
+                The-Kenny jdrake Saizan_ lorandi noteventime jrib
+                komar_ ikke cognominal fophillips borism Bleadof
+                Raynes dschoepe jauaor LeCamarade|Away drbean hrehf
+                Khisanth nvoorhies danvet Dewi_ blastbeat maxote
+                blueonyx RayNbow skalnik Taejo hiratar_away athos
+                shintah Dessous Cale dilinger facuman synthase  ksf
+                malumalu StoneToad pce dobblego Associat0r malcolmw_
+                hjteoigj amuck Tarrant igel jpcooper Jedai s_p
+                copumpkin int-e Guest33841 master_of_master ChillIX
+                Mitar niksnut Beelsebob sully agentzh Nereid
+                alexsuraci Paradox924X twanvl s76 Draconx|Laptop
+                portnov zakwilson CESSMASTER SamB_XP bos caligula__
+                otto_s_ sioraiocht Petrosian` Berengal Axman6 eno
+                tew88 jensen_ profmakx EvilTerran endojelly scook0
+                triplez mbz_ droidcore sjanssen fredma  lpsmith
+                DarthArachides kaol xinming_ Fairweather delYsid kniu
+                Gracenotes zong_sharo pikhq nohluhtC paolino converter
+                mightybyte ttt-- nlogax kpreid rdd raxas encryptio_
+                mmmulani danopia` jayzer Poeir Smurf__ jfredett tromp
+                aluink quaestor thetallguy Counter-Strike ajhager
+                enolan sphericalchicken mfp ac PsiOmega Ferdirand TR2N
+                byorgey dumbterm jakeplay opqdonut BONUS thou_ gnufied
+                loupgaroublond Elly djinni ponzao___ jvogel ray
+                randomity  AndyP mrd xci Heffalump ksandstr fnordus
+                cods loop_ Sisu Salve jmillikin tltstc stroan porpoise
+                matthew-_ wjt whoppix MarcWeber otulp tomlok eyck
+                greap polux kolmodin mauke gfarfl lunabot lefant
+                mjrosenb Elench Twigathy mike-burns dionoea marmolak
+                hellige MyCatVerbs Anthraxx LeoD Schmidt Hong_MinHee
+                poucet lispy icee newsham pettter Philippa
+                nominolo|uni J11 Tomas malouin coCocoa|sleeping
+                authentic agemo koeien kar-1 atubbs bohanlon hiredman
+                mornfall PHO__ sutats Mr_Awesome zsol gdsx bryno
+                benmachine tessier OnionKnight_ dibblego deech mkfort
+                jrick sbahra ath orbitz peddie_ te yahooooo stepnem
+                Boney Trafalgard cizra bd_ Maddas ToRA kadoban ennen
+                mikezackles Plouj- spoop pragma_ binrapt ronghail
+                dcoutts Lemmih ski SimonRC Arnar thoughtpolice
+                arjanoosting Baughn ClaudiusMaximus FauxFaux trez
+                tarbo inimino ahf Ginzor Ge0rge deavid regulate karld
+                Jiten ville Ivatar lanaer m-i-l-a-n  maskd Gilly_
+                equanimity @ChanServ alexbobp gpolo stevan glith_
+                liyang Aisling gOcOOl nnunley raimo ibid yottis
+                koninkje_away Deewiant pcc1 neurocyte canvon nablaa
+                __marius__ Badger frederik Vulpyne issal_ tensh_
+                BrianHV mae felipe_ dfranke juhp Hunner miasma deiga
+                freedrull xian Raevel periodic choko Michitux Vanadium
+                ziman sebbe1991 ido sad0ur kmatlage Reiver quarks
+                jones- Laney suiside DRMacIver epokal daf lostman_
+                shachaf davidL kalven  sunnavy liwp Nanar kosmikus
+                klugez Shurique mattam andrewsw mux clanehin jlaire
+                preflex badsheepy Tobsan kokekola sgwizdak tra26 epmf
+                luite emg-2 flux d3z Valodim CuriousTrain cjay yango
+                mixis purplepenguins JuanDaugherty Blub\0 araujo
+                earthy CalJohn PeakerWork anji etpace_ olsner AnMaster
+                Tsion mlh meder tavelram Draconx det michie1 osfameron
+                lilac clog aempirei ski_ desp Jaak Japsu Warrigal
+                Gabbie ytshen_ _dls dfeuer dancor zaarg _Jordan_
+                kapil bind_return p_l solrize Ycros allbery_b mr_mg
+                Peaker crem ertai nwf jvoorhis thirsteh dankna nimred
+                tmoertel_away nothingmuch mml` ErhardtMundt bremner
+                zrk fishey dsturnbull wagle harlekin dino- dixie
+                User6067 jrockway lambdabot tonyIII sbok guerby
+                mm_freak netcat kayess Taggnostr Vq^ quicksilver
+                boyscared QPlaty[HireMe] dr4wd3 reqamst gwern
+                timonator mle TML smg integral majoh magicman|gonne
+                hesselink atsampson welterde Liskni_si  C-Keen Chile
+                dogmaT Botje Pistahh aavogt ehamberg mgs` chr1s sebas_
+                dons impl erk burp snhmib McManiaC Sargun_screen joga
+                laz0r thomastc TML-prv sciendan nipuL r0bby kennyv dqd
+                Nafai jlouis saccade mapreduce joed DrSyzygy gereedy
+                Asztal ski__ bran_ noj anders^^ wli thedward codemac
+                ArneB koala_man edwinb tomaw- t nornagon dumael Zao
+                tuukkah faXx Stephan202 mercury^ idnar lament Lstor
+                ingy _br__ liesen Ornedan omnihil  
+22:39 -ChanServ- [#haskell] logs @ http://tunes.org/~nef/logs/haskell/
+                 - we put the funk in funktion
+22:39 *** 328 #haskell http://www.haskell.org/
+22:40 <plumenator> Why does inserting an element at the end of a list
+                   have to be expensive than inserting in the
+                   begginning?
+22:40 <byorgey> plumenator: because lists are singly linked.
+22:41 <byorgey> plumenator: if you want something that gives you
+                efficient insertion at the beginning or the end, use a
+                different data structure, like Data.Sequence
+22:41 *** BurgessShale JOIN
+22:41 <plumenator> So, why not make them doubly linked internally?
+22:41 <Saizan_> because doubly linked list are good structures only
+                with mutation
+22:42 <p_l> plumenator: also they take additional 4/8 bytes
+22:42 <RayNbow> with singly linked lists you can share tails
+22:42 <plumenator> Saizan_: I don't get it.
+22:42 *** hemulen_ JOIN
+22:42 *** Renderwahn QUIT Read error: 54 (Connection reset by peer)
+22:42 <PeakerWork> immutable doubly-linked lists with XORed pointers
+                   might still be useful for either-dir-iteration
+                   maybe? :)
+22:43 <RayNbow> plumenator: adding an element to an immutable doubly
+                linked list basically involves copying the whole list
+22:43 <mightybyte> Is there a haskell function other than threadDelay
+                   that will allow me to delay with millisecond
+                   accuracy?  threadDelay seems to be inaccurate.
+22:43 *** Renderwahn JOIN
+22:43 <Saizan_> plumenator: if i have let xs = [2..3], now i can make
+                two other lists ys = 1:xs, zs = 0:xs without having to
+                copy xs to maintain its immutability
+22:43 <SamB> mightybyte: not really quite possible
+22:44 <mightybyte> SamB: Really?  That seems strange.
+22:44 <Saizan_> plumenator: if instead those were doubly linked lists,
+                too add an element at the front i'd have to mutate the
+                list referenced by xs, so to keep immutability i'd
+                have to copy it
+22:44 *** Eghie JOIN
+22:44 *** gbeshers QUIT "Ex-Chat"
+22:44 *** Eghie QUIT SendQ exceeded
+22:44 *** Eghie JOIN
+22:45 *** Eghie QUIT SendQ exceeded
+22:45 <SamB> mightybyte: wait a minute, I might be confused
+22:46 *** Eghie JOIN
+22:46 <Saizan_> the OS won't go under a certain accuracy, not sure
+                what the granularity is though
+22:46 *** Eghie QUIT SendQ exceeded
+22:46 *** RayNbow` QUIT "-hibernate-"
+22:47 <Saizan_> (also, you're only guaranteed to wait at least that
+                much)
+22:47 <SamB> oh, and I was thinking of green threading
+22:47 <plumenator> Saizan_: Oops, I think I meant circularly linked
+                   list.
+22:47 *** Eghie JOIN
+22:47 <plumenator> Saizan_: not doubly linked.
+22:47 <Saizan_> plumenator: same issue though
+22:47 *** rfh JOIN
+22:48 <plumenator> Form a C perspective the difference I see is that
+                   the pointers will be rearranged...
+22:48 <plumenator> *From
+22:49 *** Renderwahn QUIT Read error: 54 (Connection reset by peer)
+22:49 <plumenator> Where as in a singly linked list the existing list
+                   gets referred to by a new pointer, that's all.
+22:49 <Saizan_> exactly
+22:49 <Saizan_> that's why it works well with immutability
+22:50 *** icqn QUIT Read error: 110 (Connection timed out)
+22:50 <plumenator> I don't see why that is mutating, though.
+22:50 <Saizan_> to add an element at the front you don't have to
+                modify the existing list
+22:50 <SamB> mightybyte: ah, yes, the RTS's schedular is only invoked
+             when a heap check fails
+22:50 *** DeSoVoDaMu JOIN
+22:50 *** njbartlett_ JOIN
+22:50 <plumenator> The values are still the same.
+22:50 *** sm JOIN
+22:50 *** icqn JOIN
+22:50 <byorgey> with a doubly linked list, the first element "knows"
+                that it is the first element
+22:50 *** Renderw JOIN
+22:50 <byorgey> so if you add a new element on the front you have to
+                change it so it now points to the new first element.
+22:51 *** macae QUIT "Fiquem com Deus - Saindo!"
+22:51 <byorgey> anything which pointed to the beginning of the old
+                list will now be invalid.
+22:51 *** yairchu QUIT
+22:51 *** rogueNode JOIN
+22:51 <Saizan_> plumenator: try to implement in C a circularily linked
+                list such that after let xs = [1..3]; ys = 1:xs; z =
+                2:xs; xs is still [1..3] and ys is still [1,1,2,3]
+22:51 <SamB> the heap check fails when the smallish chunk of memory
+             the RTS had been allocating out of runs out
+22:51 <mightybyte> SamB: Hmmm, interesting.  Seems like there should
+                   be another way to wait.
+22:51 *** Schmallon QUIT Read error: 110 (Connection timed out)
+22:52 <SamB> mightybyte: well, personally I was thinking that there
+             ought to be a better way to invoke the schedular
+22:52 <plumenator> Hmmm, I think I see it now. The user would have to
+                   manage all those invalid references.
+22:52 *** meanburrito920_ JOIN
+22:52 <SamB> like, a way that allows it to be invoked when the time
+             slice "interrupt" occurred
+22:52 <byorgey> plumenator: right, or you would have to make a copy of
+                a list before modifying it, so as not to invalidate
+                any references to it.
+22:53 <SamB> mightybyte: look at
+             http://hackage.haskell.org/trac/ghc/ticket/367
+22:53 *** facuman QUIT Read error: 110 (Connection timed out)
+22:53 <plumenator> Thanks, guys.
+22:53 <SamB> I'm trying to keep information about this family of
+             issues findable from there
+> 

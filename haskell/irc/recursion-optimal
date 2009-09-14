@@ -1,0 +1,245 @@
+21:51 *** plumenator JOIN
+21:51 *** TOPIC ["Real World Haskell: out now", "#haskell-in-depth
+                launched!", "Haskell News:
+                http://reddit.com/r/haskell", "The Haskell programming
+                language", "http://haskell.org", "Paste:
+                http://moonpatio.com", "Logs:
+                http://tunes.org/~nef/logs/haskell/"] (glguy on Mon
+                Mar  2 06:09:50 2009)
+21:51 *** NAMES plumenator rjack snurble johnnowak giulianoxt bfig
+                FunctorSalad_ Adamant gnuvince_ boml anRch QplQyer
+                vermila aluink NEEDMOAR der_eq blueonyx yurinotigor
+                elliotstern AleksJ voker57_ Toxaris int-e shintah
+                vininim sm reprore Taggnostr proq iiome_ paulvisschers
+                igel scook0 dfrey fredcy andyjgill RayNbow` agib
+                yyttutuut dschoepe FunctorSalad ivan-kanis ulfdoz
+                fophillips u_quark1 jsgf ath gbacon k3ph Apocalisp
+                doserj amuck_ kazimir soupdragon  kniu flazz r0bby
+                TaucherMK The-Kenny conal Associat0r corruptmemory
+                kpreid cytzol EvilTerran Saizan weihsiu_ tesla_
+                PsiOmega omichael nkkvt phearle Dessous greap trin_cz
+                moozilla trie willb bombshelter13_ jmelesky roconnor
+                pcapriotti longh Itkovian lurkymclurkleton Berengal
+                saml hzap iblechbot lorandi Pistahh Cthulhon|WORK dml
+                MrFahrenheit Pthing gbeshers hemant__ octaviou1 davidL
+                randomity AndyP mrd xci Heffalump wjt Tarrant ksandstr
+                fnordus  dmwit Yogsothon cjay yahooooo lambdabot
+                Raiford_ X-Scale encryptio_ jix_ portnov adlan Nshag
+                jrib jpcooper Lomono brandon hkBst whoppix kayess__
+                ksf fbru02 boscop komar_ nominolo Acteum djulio1 Taejo
+                endojelly mikezackles_ zax boyscared hiratar_away
+                athos Dae RayNbow burp XGas Athas agentzh themroc
+                LouisJB mkrauskopf malcolmw tetha Eelis harinath A6T
+                blastbeat ehird augustss edon yowgi twanvl jauaor
+                brian6 rtrrtrtrtrt Counter-Strike masklinn
+                georgehorse mae ddvlad Tsion s76 ac_ sgwizdak
+                SyntaxNinja gemelen_ mfp pem mkfort otto_s_ _dls
+                necroforest tarbo shachaf karld dfranke chr1s segher
+                sebas__ djahandarie Salve sunnavy djinni thirsteh
+                glitch mattam aavogt leimy ziman ytshen noteventime
+                BMeph Botje juhp ertai MyCatVerbs BONUS Choko Valodim
+                trofi_ Lycurgus jaredj orbitz kadoban matthew-_
+                BrianHV Lemmih tensh_ issal_ Vulpyne C-Keen frederik
+                Mitar emg-2 alexsuraci araujo TML bos  pstickne
+                jbauman master_of_master CESSMASTER mmorrow Vanadium
+                realtime sioraiocht_ ttmrichter amuck dibblego
+                jtootf__ smorg drbean fishey Gracenotes BfrOv3rfl0w
+                vxr__ Anthraxx jan_ dever da-x bd_ ray Draconx
+                thetallguy1 zloog deavid deech xinming JHVH uzytkownik
+                sjanssen nathanic Paradox924X Badger maxote
+                megaTherion smg welterde cdfh det grncdr sad0ur
+                shepheb ClaudiusMaximus hellige therp marco_g magicman
+                nasloc__ ivan78 qz philipp_ pikhq  Modius
+                Sargun_screen OnionKnight bla Beelsebob thetallguy
+                ryant5000 nwf kennyv jensen_ DarthArachides cjs woggle
+                eno sbahra Axman6 rickasaur mm_freak zoglesby Tesla
+                SimonRC mgodshall galdor sutats ski pettter joga
+                webframp jrick __marius__ aconbere Cale seliopou
+                kmatlage eyck marmolak dqd raxas blackdog J11
+                kolmodin_ cky Boxo Reiver JaffaCake cpfr AnMaster
+                polux @ChanServ TheRealMarko WorkyBob zakwilson
+                StoneToad zeno_ blackh davatk Caelum  Gabbie cheddar
+                jfredett synthase Tobsan jmillikin jimmyjazz14 dino-
+                gwern bwr p_l droidcore snhmib arjanoosting kynky
+                bohanlon danopia Baughn SubStack osfameron
+                steveklabnik allbery_b Liskni_si kar-1 lilac clog
+                aempirei cizra jleedev sbok ski_ delYsid alexbobp
+                timothy|1rg oubiwann desp Jaak mlh atsampson Philippa
+                leandrom Japsu byorgey Peaker Mr_Awesome mux_ Upp3r
+                aapole Jedai birkenfeld Igloo avalan luite Sam___
+                shapr enolan Twey andrewsw  Vq^ Elly mornfall Striki
+                xian Nafai clanehin nothingmuch Nanar Dr_Sunglasses
+                Khisanth authentic mightybyte jlouis nrl m-i-l-a-n
+                thoughtpolice sebbe1991 profmakx SamB_XP rey_ inimino
+                keseldude jonafan wh1t3 guerby Ivatar_ nablaa earthy
+                kerm|t Ge0rge User6068 Schmidt hiredman saccade
+                Bleadof tltstc ponzao___ dejones mapreduce fadec joed
+                DrSyzygy olsner eelco RAndrew electrogeek taruti
+                mreggen agemo Raevel canvon mauke dcoutts newsham
+                infoe_  loupgaroublond gereedy Asztal jrockway ville
+                QtPlaty[HireMe] jlaire dogmaT PHO_ malouin lispy dons
+                mjrosenb dionoea icee glguy SamB poucet jimki
+                tiglionabbit kapil trez Boney Nereid lanaer lunabot
+                hackagebot felipe_ deiga neurocyte pcc1 quarks jones-
+                Laney Ginzor loop pragma_ ski__ bran_ tromp McManiaC
+                gdsx spoop Ferdirand PeakerWork suiside mike-burns
+                Deewiant flux koninkje_away MrDomino And[y] integral
+                noj anders^^ klugez yottis opqdonut  ibid miasma raimo
+                laz0r wli Arnar dr4wd3 thedward Sisu Tomas jvoorhis
+                kosmikus igglyb nnunley ToRA qebab codemac nimred
+                Twigathy nemik roadwarrior saiam jml lament regulate
+                ahf gnuvince stroan Debolaz Lstor ingy Maddas _br__
+                equanimity epmf liesen Ornedan omnihil idnar kokekola
+                thomastc mercury^ Stephan202 faXx Hong_MinHee
+                DRMacIver jnwhiteh epokal daf lostman_ stevan maskd
+                pastorn koeien drhodes netcat nlogax qwr tuukkah Zao
+                Blub\0 Shurique  majoh mikezackles Hunner dumael mgs`
+                glith_ liyang nornagon t tomaw- sii mle tessier otulp
+                zsol edwinb quicksilver dropdrive koala_man kalven
+                ehamberg ArneB erk preflex periodic Aisling Gilly
+                thorkilnaur bremner cYmen gOcOOl harlekin _janne ido  
+21:51 -ChanServ- [#haskell] logs @ http://tunes.org/~nef/logs/haskell/
+                 - we put the funk in funktion
+21:51 *** rjack QUIT Client Quit
+21:52 <plumenator> Doesn't recursion result in a memory exhaustion? Or
+                   is recursion somehow eficient? (I'm guessing
+                   garbage collection)
+21:52 *** QplQyer QUIT "You ain't seen me, right?"
+21:52 <plumenator> On second thoughts, GC wou;dn't help.
+21:52 *** mkrauskopf QUIT "Leaving"
+21:53 <mmorrow> plumenator: it exhausts memory just as much as goto
+                does in C
+21:53 <mauke> depends on the recursion
+21:53 <plumenator> mauke: Are you thinking tail call optimization?
+21:53 <plumenator> mmorrow: can you elaborate
+21:53 <boml> SamB: ticket has been created.
+21:53 <SamB> mmorrow: no, it doesn't
+21:53 <SamB> it does more
+21:53 <SamB> if it isn't tail recursion
+21:54 <mmorrow> SamB: well clearly i'm assuming tail recursion ;)
+21:54 <SamB> mmorrow: bad assumption
+21:54 <mmorrow> SamB: why?
+21:54 <SamB> and even then, there *are* some compilers that don't
+             properly support tail recursion
+21:54 <plumenator> I remember reading Haskell doesn't have tail call
+                   optimization...
+21:54 <mmorrow> i'm ignoring those
+21:55 *** QplQyer JOIN
+21:55 <mauke> plumenator: you're thinking of python
+21:55 <plumenator> So, if I want my recursion to be optimal, I just
+                   need to make them tail recursive in Haskell?
+21:56 *** elliottt JOIN
+21:56 <mmorrow> plumenator: kind of
+21:56 <mauke> well, you usually don't recurse yourself
+21:56 <plumenator> Hmm.. come to think of it, folds *are* tail
+                   recursive, aren't they?
+21:56 <mauke> evaluation does
+21:56 <mauke> plumenator: foldl is, foldr isn't
+21:56 <mauke> but that doesn't matter because foldl sucks
+21:57 <plumenator> mauke: Yeah, subtle.
+21:57 *** elliotstern QUIT Read error: 110 (Connection timed out)
+21:57 <mauke> you don't want a tail recursive fold
+21:57 <pikhq> plumenator: You might be interesting in this:
+              http://home.pipeline.com/~hbaker1/CheneyMTA.html
+21:57 <pikhq> Not a commonly used technique or anything, but rather
+              interesting.
+21:57 <pikhq> ;
+21:57 <pikhq> Also, s/interesting/interested/
+21:58 <mmorrow> plumenator: in haskell, it matters when it finally
+                comes time to collapse a part of the huge graph of
+                thunks/closure/frozen application/etc you've created
+                with your expression. so you want the shape of the
+                graph to be such that it collapses in an optimal way
+21:58 <mmorrow> what's optimal depends on what the graph is building
+                as it's collapsing :/
+21:59 *** FunctorSalad QUIT Read error: 110 (Connection timed out)
+21:59 <plumenator> mmorrow: your description reminds me of an
+                   illustration in SICP. :-)
+21:59 *** ablokzijl JOIN
+21:59 [mmorrow has never read SICP :(]
+22:00 *** triplez JOIN
+22:00 <C-Keen> watch the videos
+22:00 *** wh1t3_ JOIN
+22:00 *** triplez QUIT Remote closed the connection
+22:00 <plumenator> I've only read the firt 3 chapters..I'm a total
+                   noob.
+22:00 *** Yoric[DT] JOIN
+22:01 *** copumpkin JOIN
+22:02 *** jeffersonheard JOIN
+22:02 [pikhq needs to read SICP. Started on Haskell a few days ago, so
+             just be shocked that I can almost get monads. :P]
+22:02 <mauke> monads are trivial
+22:02 *** triplez JOIN
+22:02 <jpcooper> mauke, it seems that they're really trivial once one
+                 understands them
+22:02 <jpcooper> I now can't see why I didn't understand them
+22:02 <mauke> there is nothing to understand
+22:02 <jpcooper> indeed
+22:03 <mauke> there is almost no functionality in there
+22:03 <pikhq> So, it's like a Zen koan.
+22:03 <pikhq> :P
+22:03 <burp> same lol
+22:03 <mauke> do you know what a "group" is in math?
+22:03 <burp> nothing special about it
+22:03 <jpcooper> maybe it's because they're explained with the IO
+                 monad and it's not immediately apparent how the IO
+                 monad works
+22:03 *** mattrepl JOIN
+22:03 <jpcooper> I do
+22:03 *** TaucherMK QUIT
+22:03 *** gbacon QUIT Read error: 104 (Connection reset by peer)
+22:04 <mauke> groups are about as complicated as monads
+22:04 <pikhq> Not really.
+22:05 <mauke> why not?
+22:05 <byorgey> groups are simpler IMO.
+22:05 <jpcooper> well this is all subjective, isn't it?
+22:05 <mauke> groups have more operations
+22:05 <byorgey> indeed. =)
+22:05 <pikhq> Huge mass of stuff I need to learn, and I'm just an
+              innocent sophomore CS student...
+22:06 <lament> monads have more laws
+22:06 *** wh1t3 QUIT Connection timed out
+22:06 <lament> (or i guess they don't?)
+22:06 *** yowgi QUIT "Ex-Chat"
+22:07 *** wh1t3_ QUIT Read error: 104 (Connection reset by peer)
+22:07 *** vermila QUIT Remote closed the connection
+22:07 <jpcooper> pikhq, so am I. It's strange to think that I'm only
+                 half way there
+22:07 *** BCoppens JOIN
+22:07 <jpcooper> it seems like so long already
+22:07 *** wh1t3 JOIN
+22:08 <pikhq> Half-way? I mean "entering my sophomore year"...
+22:08 <pikhq> Fourth of the way there, man. ;)
+22:08 <jpcooper> damn
+22:10 *** Taejo QUIT "Leaving"
+22:11 <byorgey> pikhq: don't worry. I just finished my first year of a
+                PhD program, and spent the four years between an
+                undergrad CS major and my PhD program reading stuff,
+                and I STILL have a huge mass of stuff to learn =)
+22:11 <jeffersonheard> is there a standard way to apply a function to
+                       both members of a pair individually and return
+                       a pair?
+22:11 *** FunctorSal JOIN
+22:11 *** Taejo JOIN
+22:11 <byorgey> jeffersonheard: f *** f
+22:11 <jpcooper> byorgey, you managed to go straight from a bachelors
+                 to a PhD?
+22:11 <jeffersonheard> byorgey, thanks
+22:11 <byorgey> jpcooper: that's the way it's done in most US
+                institutions, the masters/PhD is combined into one
+                program
+22:11 <jpcooper> aah
+22:11 <byorgey> jpcooper: so I've got like 5 years instead of 3
+22:11 <pikhq> byorgey: I guess the only reason I get anything at all
+              about Haskell is that I'm a madman. :P
+22:11 <jeffersonheard> :t (***)
+22:11 <jpcooper> bloody hell
+22:11 <lambdabot> forall (a :: * -> * -> *) b c b' c'. (Arrow a) => a
+                  b c -> a b' c' -> a (b, b') (c, c')
+22:12 *** 403 Back That channel doesn't exist
+22:12 <georgehorse> I hate things like *** that are not easily
+                    googled.
+22:12 *** johnnowak QUIT Remote closed the connection
+22:12 <byorgey> pikhq: aren't we all =)
+22:12 *** plumenator PART #haskell "rcirc on GNU Emacs 22.2.1"
+> 
