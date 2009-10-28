@@ -1,0 +1,23 @@
+#import "Point.h"
+
+@implementation Point
+
++ (id)new
+{
+  return [[self alloc] init];
+}
+
++ (id) newWithX: (float)x0 Y: (float)y0
+{
+  return [[self alloc] initWithX: x0 Y: y0];
+}
+
++ (Point*) point
+{
+  Point *point = [[self alloc] init];
+  [point autorelease];
+  return point;
+}
+
++ (Point*) pointWithX: (float)x0 Y: (float)y0
+{
