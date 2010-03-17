@@ -1,0 +1,9 @@
+1) Learn you a Haskell
+2) Real world Haskell
+3) Haskell for C programmers
+4) Spriting with HOpenGL 
+5) A tour of the Haskell syntax
+6) Web Application Programming in Haskell
+7) WASH
+8) HappStack
+9) Haskell WikiBook
