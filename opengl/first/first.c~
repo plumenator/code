@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <gl.h>
+
+int main() {
+  Display *dpy = XOpenDisplay(getenv("DISPLAY"));
+
+
+  XCloseDisplay(dpy);

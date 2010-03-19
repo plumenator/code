@@ -1,3 +1,0 @@
-*Questions on Haskell
-**Infix functions
-***Do infix functions necessarily take two and only two arguments?

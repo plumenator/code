@@ -1,0 +1,2 @@
+solveRpn :: (Num a) => String -> a
+solveRpn expression = foldl step [] (words expression)

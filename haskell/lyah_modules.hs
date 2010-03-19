@@ -86,5 +86,10 @@ concat' (xs:xss) = xs ++ (concat' xss)
 -- [1,1,1,1,2,2,2,2,3,3,3,3]
 -- *Main> 
 concatMap' :: (a -> [b]) -> [a] -> [b]
-concatMap' f = concat . (map f)
+concatMap' f = concat . (map f) -- Note that the f cannot be cancelled
+                                -- since (map f) :: [a] -> [[b]] is
+                                -- needed to finally get concatMap's
+                                -- type.
+
+
 

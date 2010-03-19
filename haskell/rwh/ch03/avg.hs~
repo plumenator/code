@@ -1,0 +1,2 @@
+avg :: (Num a,b) => [a] -> b
+avg xs = sum xs / fromIntegral (length xs)

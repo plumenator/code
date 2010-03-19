@@ -1,0 +1,2 @@
+isPalindrome :: [a] -> Bool
+isPalindrome xs = xs == (reverse xs)

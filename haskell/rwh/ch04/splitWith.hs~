@@ -1,0 +1,2 @@
+splitWith :: (a -> Bool) -> [a] -> [[a]]
+splitWith p xs = (takeWhile p xs):(splitWith p (dropWhile (not.p) xs)

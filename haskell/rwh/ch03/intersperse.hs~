@@ -1,0 +1,3 @@
+intersperse :: a -> [[a]] -> [a]
+intersperse y (x:xs) = x:y:(intersperse xs)
+intersperse [x] = x
