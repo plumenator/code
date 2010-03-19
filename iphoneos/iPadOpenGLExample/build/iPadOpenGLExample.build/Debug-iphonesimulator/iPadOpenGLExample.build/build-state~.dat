@@ -1,0 +1,398 @@
+TiPadOpenGLExample
+v7
+r0
+t287405366.304738
+cCheck dependencies
+cProcessInfoPlistFile /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Info.plist iPadOpenGLExample-Info.plist
+cCpResource build/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.fsh Shaders/Shader.fsh
+cCpResource build/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.vsh Shaders/Shader.vsh
+cCompileXIB /Users/plumenator/code/iphoneos/iPadOpenGLExample/MainWindow.xib
+cProcessPCH /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch.gch iPadOpenGLExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/main.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExampleAppDelegate.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/EAGLView.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES1Renderer.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES2Renderer.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample normal i386
+cGenerateDSYMFile /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app.dSYM /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample
+cTouch /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.h
+c000000004B713DAF00000000000004E6
+t1265712559
+s1254
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m
+c000000004B713DAF000000000000101F
+t1265712559
+s4127
+i"EAGLView.h"
+i"ES1Renderer.h"
+i"ES2Renderer.h"
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.h
+c000000004B713DAF0000000000000272
+t1265712559
+s626
+i"ESRenderer.h"
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m
+c000000004B713DAF0000000000000FAA
+t1265712559
+s4010
+i"ES1Renderer.h"
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.h
+c000000004B713DAF0000000000000288
+t1265712559
+s648
+i"ESRenderer.h"
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m
+c000000004B713DAF0000000000002211
+t1265712559
+s8721
+i"ES2Renderer.h"
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ESRenderer.h
+c000000004B713DAF0000000000000157
+t1265712559
+s343
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.h
+c000000004B713DAF00000000000001C4
+t1265712559
+s452
+i<UIKit/UIKit.h>
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m
+c000000004B713DAF0000000000000358
+t1265712559
+s856
+i"iPadOpenGLExampleAppDelegate.h"
+i"EAGLView.h"
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/MainWindow.xib
+c000000004B713DAF00000000000027A2
+t1265712559
+s10146
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Shaders/Shader.fsh
+c000000004B713DAF00000000000000E2
+t1265712559
+s226
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/Shaders/Shader.vsh
+c000000004B713DAF0000000000000168
+t1265712559
+s360
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app
+t1265712566
+s272
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app.dSYM
+t1265712566
+s102
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Info.plist
+t1265712563
+s637
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/MainWindow.nib
+t1265712565
+s1159
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/PkgInfo
+t1265712563
+s8
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.fsh
+t1265712563
+s226
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.vsh
+t1265712563
+s360
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample
+t1265712566
+s35732
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/EAGLView.o
+t1265712566
+s19428
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES1Renderer.o
+t1265712566
+s14892
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES2Renderer.o
+t1265712566
+s21892
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExample.LinkFileList
+c000000004B713DB30000000000000327
+t1265712563
+s807
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExampleAppDelegate.o
+t1265712566
+s21088
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/main.o
+t1265712565
+s5972
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/iPadOpenGLExample_Prefix.pch
+c000000004B713DAF000000000000014C
+t1265712559
+s332
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m
+c000000004B713DAF0000000000000171
+t1265712559
+s369
+i<UIKit/UIKit.h>
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004B713A080000000000000110
+t1265711624
+s272
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B56718B0000000000288B20
+t1263956363
+s2657056
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B56717E0000000000001355
+t1263956350
+s4949
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004B555A8B000000000000094F
+t1263884939
+s2383
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004B555A8B0000000000000A61
+t1263884939
+s2657
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004B555A8B0000000000009369
+t1263884939
+s37737
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004B555A8B0000000000002A42
+t1263884939
+s10818
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004B555A8B00000000000082AD
+t1263884939
+s33453
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004B555A8B0000000000001617
+t1263884939
+s5655
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004B555A94000000000001F9F0
+t1263884948
+s129520
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B555ABC000000000000007D
+t1263884988
+s125
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B555BD8000000000011BEA0
+t1263885272
+s1162912
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B56A2960000000000000970
+t1263968918
+s2416
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B56A324000000000211C6C0
+t1263969060
+s34719424
+
+N/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004B4D00900000000000001A1A
+t1263337616
+s6682
+
+N/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch.gch
+t1265712565
+s13698896
+
+NiPadOpenGLExample-Info.plist
+c000000004B713DAF000000000000038D
+t1265712559
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies287405363#287405363#0(0"0(0#1#0"4300903632#0"0#
+
+CCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/EAGLView.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287405365.974155
+e287405366.083948
+r1
+xCompileC
+xbuild/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/EAGLView.o
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m287405365#287405366#0(0"0(0#0#68"/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m4300903632#2210"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv LANG en_US.US-ASCII    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-generated-files.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-project-headers.hmap -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/EAGLView.m -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES1Renderer.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287405366.033896
+e287405366.108239
+r1
+xCompileC
+xbuild/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES1Renderer.o
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m287405366#287405366#0(0"0(0#0#71"/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m4300903632#2216"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv LANG en_US.US-ASCII    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-generated-files.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-project-headers.hmap -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES1Renderer.m -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES1Renderer.o0#
+
+CCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES2Renderer.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287405366.084043
+e287405366.182142
+r1
+xCompileC
+xbuild/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES2Renderer.o
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m287405366#287405366#0(0"0(0#0#71"/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m4300903632#2216"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv LANG en_US.US-ASCII    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-generated-files.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-project-headers.hmap -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/ES2Renderer.m -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/ES2Renderer.o0#
+
+CCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExampleAppDelegate.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287405365.887254
+e287405366.033801
+r1
+xCompileC
+xbuild/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExampleAppDelegate.o
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m287405365#287405366#0(0"0(0#0#88"/Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m4300903632#2250"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv LANG en_US.US-ASCII    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-generated-files.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-project-headers.hmap -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/Classes/iPadOpenGLExampleAppDelegate.m -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExampleAppDelegate.o0#
+
+CCompileC build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/main.o /Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287405365.886398
+e287405365.974059
+r1
+xCompileC
+xbuild/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/main.o
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m287405365#287405365#0(0"0(0#0#56"/Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m4300903632#2194"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv LANG en_US.US-ASCII    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-generated-files.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-project-headers.hmap -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/main.m -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/plumenator/code/iphoneos/iPadOpenGLExample/MainWindow.xib
+s287405363.702645
+e287405365.228917
+r1
+xCompileXIB
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib287405363#287405365#0(0"0(0#0#64"/Users/plumenator/code/iphoneos/iPadOpenGLExample/MainWindow.xib4300903632#529"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/MainWindow.nib /Users/plumenator/code/iphoneos/iPadOpenGLExample/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.fsh Shaders/Shader.fsh
+s287405363.667274
+e287405363.785920
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh287405363#287405363#0(0"0(0#0#68"/Users/plumenator/code/iphoneos/iPadOpenGLExample/Shaders/Shader.fsh4300903632#511"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/iPadOpenGLExample/Shaders/Shader.fsh /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app0#
+
+CCpResource build/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.vsh Shaders/Shader.vsh
+s287405363.700953
+e287405363.786681
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iPadOpenGLExample.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh287405363#287405363#0(0"0(0#0#68"/Users/plumenator/code/iphoneos/iPadOpenGLExample/Shaders/Shader.vsh4300903632#511"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/iPadOpenGLExample/Shaders/Shader.vsh /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app0#
+
+CGenerateDSYMFile /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app.dSYM /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample
+s287405366.274757
+e287405366.286268
+r1
+xGenerateDSYMFile
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app.dSYM
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/iPadOpenGLExample.app.dSYM build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample287405366#287405366#0(0"0(0#0#117"/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample4300903632#452"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/usr/bin/dsymutil /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app.dSYM0#
+
+CLd /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample normal i386
+s287405366.182225
+e287405366.274662
+r1
+xLd
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample
+xnormal
+xi386
+lSLF07#2@122"Link /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample287405366#287405366#0(0"0(0#0#0"4300903632#993"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -filelist /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/Objects-normal/i386/iPadOpenGLExample.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/iPadOpenGLExample0#
+
+CProcessInfoPlistFile /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Info.plist iPadOpenGLExample-Info.plist
+s287405363.663369
+e287405363.667193
+r1
+xProcessInfoPlistFile
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Info.plist
+xiPadOpenGLExample-Info.plist
+lSLF07#2@36"Process iPadOpenGLExample-Info.plist287405363#287405363#0(0"0(0#0#78"/Users/plumenator/code/iphoneos/iPadOpenGLExample/iPadOpenGLExample-Info.plist4300903632#546"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iPadOpenGLExample-Info.plist -genpkginfo /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app/Info.plist0#
+
+CProcessPCH /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch.gch iPadOpenGLExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s287405365.229076
+e287405365.886307
+r1
+xProcessPCH
+x/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch.gch
+xiPadOpenGLExample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile iPadOpenGLExample_Prefix.pch287405365#287405365#0(0"0(0#0#78"/Users/plumenator/code/iphoneos/iPadOpenGLExample/iPadOpenGLExample_Prefix.pch4300903632#2065"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv LANG en_US.US-ASCII    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-generated-files.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/iPadOpenGLExample-project-headers.hmap -F/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/iPadOpenGLExample.build/Debug-iphonesimulator/iPadOpenGLExample.build/DerivedSources -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/iPadOpenGLExample_Prefix.pch -o /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadOpenGLExample_Prefix-giejbdfgvnhtaddzwplocjghhjdu/iPadOpenGLExample_Prefix.pch.gch0#
+
+CTouch /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app
+s287405366.286349
+e287405366.304697
+r1
+xTouch
+x/Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app
+lSLF07#2@105"Touch /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app287405366#287405366#0(0"0(0#0#0"4300903632#314"    cd /Users/plumenator/code/iphoneos/iPadOpenGLExample    setenv PATH "/iphonesdk32/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/iphonesdk32/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/plumenator/code/iphoneos/iPadOpenGLExample/build/Debug-iphonesimulator/iPadOpenGLExample.app0#
+
