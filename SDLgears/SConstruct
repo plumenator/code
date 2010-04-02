@@ -1,0 +1,7 @@
+Program(target = 'SDLGears',
+        source = 'SDLgears.c',
+        LIBS = Split('SDL GL'))
+
+Program(target = 'gears',
+        source = 'gears.c',
+        LIBS = Split('glut GL'))
