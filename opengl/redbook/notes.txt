@@ -1,3 +1,5 @@
+Notes from the OpenGL Programming Guide, 7th Edition.
+-----------------------------------------------------
 1) OpenGL is 
    - an interface to graphics hardware
    - hardware-independent
