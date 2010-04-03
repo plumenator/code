@@ -1,0 +1,3 @@
+Program(target = "SDLFirst",
+        source = "first.cpp",
+        LIBS = Split("SDL GL"))
