@@ -1,0 +1,9 @@
+1) OpenGL is 
+   - an interface to graphics hardware
+   - hardware-independent
+   - devoid of any platform specific windowing or user input commands
+   
+2) There are three kinds of primitives
+   - points
+   - lines
+   - poygons
