@@ -10,7 +10,7 @@ Notes from the OpenGL Programming Guide, 7th Edition.
    - lines
    - poygons
 
-3) Vertices -> Primitives -> Models -> Image
+3) Vertices -> Primitives -> Models -> Image -> Pixels -> Bitplanes -> Framebuffer.
 
 4) "Information about the pixels (for instance, what color they¡¯re supposed to
    be) is organized in memory into bitplanes. A bitplane is an area of memory
@@ -19,3 +19,5 @@ Notes from the OpenGL Programming Guide, 7th Edition.
    bitplanes are themselves organized into a framebuffer, which holds all the
    information that the graphics display needs to control the color and
    intensity of all the pixels on the screen."
+
+5) 
