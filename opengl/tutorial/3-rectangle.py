@@ -19,7 +19,7 @@ def display():
    # clear all pixels 
    glClear(GL_COLOR_BUFFER_BIT)
 
-   # Specify the vertices (in this case just one) as an array, as in (x, y)
+   # Specify the vertices (in this case four) as an array, as in (x, y)
    vertices = [-0.8,0.8, 0.8,0.8, 0.8,-0.8, -0.8,-0.8]
    glVertexPointer(2, GL_FLOAT, 0, vertices)
 
