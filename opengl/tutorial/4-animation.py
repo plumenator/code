@@ -27,13 +27,16 @@ xDirection, yDirection = (1, 1)
 # Update interval
 t = 10
 
+# Position increment
+inc = 25
+
 def display(i):
    # clear all pixels 
    glClear(GL_COLOR_BUFFER_BIT)
 
-   xPosition = xPosition if xPosition + 50 <= screenWidth else screenWidth - 50
-   yPosition = yPosition if yPosition + 50 <= screenHeight else screenHeight - 50
-   
+   # Prevent the box from going out of the screen
+   clipToWindow()
+
    glMatrixMode(GL_MODELVIEW)
    glLoadIdentity()
    glTranslate(xPosition, yPosition, 0);
@@ -61,16 +64,24 @@ def display(i):
    # Swap the buffers (glFLush() implicit)
    glutSwapBuffers();
 
-   global xPosition, yPosition, xDirection, yDirection
-   incX, incY = (random.randint(0, 5), random.randint(0, 5))
-   xDirection = -xDirection if (xPosition + xDirection*incX > screenWidth - 50) or (xPosition + xDirection*incX < 0) else xDirection
-   yDirection = -yDirection if (yPosition + yDirection*incY > screenHeight - 50) or (yPosition + yDirection*incY < 0) else yDirection
-   xPosition = xPosition + xDirection*incX
-   yPosition = yPosition + yDirection*incY
+   # Compute the new position
+   updatePosition()
 
-   print xPosition, yPosition
    glutTimerFunc(t, display, 1)
-   
+
+def clipToWindow():
+  global xPosition, yPosition, xDirection, yDirection, inc
+  xPosition = xPosition if xPosition + 50 <= screenWidth else screenWidth - 50
+  yPosition = yPosition if yPosition + 50 <= screenHeight else screenHeight - 50
+
+def updatePosition():
+  global xPosition, yPosition, xDirection, yDirection, inc
+  incX, incY = (random.randint(0, inc), random.randint(0, inc))
+  xDirection = -xDirection if (xPosition + xDirection*incX > screenWidth - 50) or (xPosition + xDirection*incX < 0) else xDirection
+  yDirection = -yDirection if (yPosition + yDirection*incY > screenHeight - 50) or (yPosition + yDirection*incY < 0) else yDirection
+  xPosition = xPosition + xDirection*incX
+  yPosition = yPosition + yDirection*incY
+  
 def reshape(width, height):
   # Setup the drawing area (bottomX bottomY, topX, topY)
   glViewport(0, 0, width, height)
@@ -107,6 +118,6 @@ glutInitWindowPosition(100, 100)
 glutCreateWindow("Bouncing rectangle")
 init()
 glutReshapeFunc(reshape)
-glutDisplayFunc(display)
+OpenGL.GLUT.glutDisplayFunc(display, None)
 glutTimerFunc(t, display, 1)
 glutMainLoop()
