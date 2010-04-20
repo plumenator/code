@@ -1,4 +1,6 @@
-# A first OpenGL program, where we just put a red dot on the screen.
+"""
+A first OpenGL program, where we just put a red dot on the screen.
+"""
 
 import sys
 
@@ -35,7 +37,7 @@ def display():
    
    # don't wait!  
    # start processing buffered OpenGL routines 
-   glFlush();
+   glFlush()
 
 def init():
    # select clearing color 	
