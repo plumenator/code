@@ -101,7 +101,7 @@ def reshape(width, height):
   glLoadIdentity();
     
 def init():
-   # select clearing color 	
+   # select clearing color      
    glClearColor(0.0, 0.0, 0.0, 0.0)
 
 
