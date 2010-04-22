@@ -42,7 +42,7 @@ def display(i):
    glLoadIdentity()
    glTranslate(xPosition, yPosition, 0);
 
-   # Specify the vertices (in this case just one) as an array, as in (x, y)
+   # Specify the vertices as an array, as in (x, y)
    vertices = [0, 0,
                0, 50,
                50, 50,
