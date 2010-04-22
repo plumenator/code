@@ -1,5 +1,5 @@
 """
-Draw a rectangle
+Draw a bouncing box
 """
 
 import sys, random
