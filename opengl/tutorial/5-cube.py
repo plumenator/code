@@ -64,12 +64,12 @@ def display():
   glTranslate(-boxWidth*0.5, -boxHeight*0.5, 0)
   
    # Draw the box
-  glDrawElements(GL_LINE_LOOP, len(frontFace), GL_UNSIGNED_INT, frontFace)
-  glDrawElements(GL_LINE_LOOP, len(backFace), GL_UNSIGNED_INT, backFace)
-  glDrawElements(GL_LINE_LOOP, len(leftFace), GL_UNSIGNED_INT, leftFace)
-  glDrawElements(GL_LINE_LOOP, len(rightFace), GL_UNSIGNED_INT, rightFace)
-  glDrawElements(GL_LINE_LOOP, len(bottomFace), GL_UNSIGNED_INT, bottomFace)
-  glDrawElements(GL_LINE_LOOP, len(topFace), GL_UNSIGNED_INT, topFace)
+  glDrawElements(GL_TRIANGLE_FAN, len(frontFace), GL_UNSIGNED_INT, frontFace)
+  glDrawElements(GL_TRIANGLE_FAN, len(backFace), GL_UNSIGNED_INT, backFace)
+  glDrawElements(GL_TRIANGLE_FAN, len(leftFace), GL_UNSIGNED_INT, leftFace)
+  glDrawElements(GL_TRIANGLE_FAN, len(rightFace), GL_UNSIGNED_INT, rightFace)
+  glDrawElements(GL_TRIANGLE_FAN, len(bottomFace), GL_UNSIGNED_INT, bottomFace)
+  glDrawElements(GL_TRIANGLE_FAN, len(topFace), GL_UNSIGNED_INT, topFace)
   
    # Disable vertex arrays
   glEnableClientState(GL_VERTEX_ARRAY)
