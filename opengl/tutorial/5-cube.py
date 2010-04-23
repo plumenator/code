@@ -1,5 +1,8 @@
 """
 Draw a 3d box, rotate the camera using the arrow keys.
+Zoom in and out using = and -.
+Toggle culling with c.
+Switch between cull modes with f.
 """
 import sys, random
 
@@ -14,7 +17,10 @@ ERROR: PyOpenGL not installed properly.
   sys.exit()
 
 angleInc = 5
-view_rotx, view_roty, view_rotz = (0, 0, 0)
+posInc = 0.1
+drawMode = GL_LINE_LOOP
+ortho = True
+view_rotx, view_roty, view_posz = (0, 0, 0)
 
 def display():
   
@@ -28,6 +34,9 @@ def display():
   glMatrixMode(GL_MODELVIEW)
   glLoadIdentity()
 
+
+  # Position the Camera
+  glTranslate(0, 0, view_posz)
   # Rotate the camera
   z = -1
   glTranslate(0, 0, (2*z-boxDepth)*0.5)
@@ -64,12 +73,12 @@ def display():
   glTranslate(-boxWidth*0.5, -boxHeight*0.5, 0)
   
    # Draw the box
-  glDrawElements(GL_TRIANGLE_FAN, len(frontFace), GL_UNSIGNED_INT, frontFace)
-  glDrawElements(GL_TRIANGLE_FAN, len(backFace), GL_UNSIGNED_INT, backFace)
-  glDrawElements(GL_TRIANGLE_FAN, len(leftFace), GL_UNSIGNED_INT, leftFace)
-  glDrawElements(GL_TRIANGLE_FAN, len(rightFace), GL_UNSIGNED_INT, rightFace)
-  glDrawElements(GL_TRIANGLE_FAN, len(bottomFace), GL_UNSIGNED_INT, bottomFace)
-  glDrawElements(GL_TRIANGLE_FAN, len(topFace), GL_UNSIGNED_INT, topFace)
+  glDrawElements(GL_LINE_LOOP, len(frontFace), GL_UNSIGNED_INT, frontFace)
+  glDrawElements(GL_LINE_LOOP, len(backFace), GL_UNSIGNED_INT, backFace)
+  glDrawElements(drawMode, len(leftFace), GL_UNSIGNED_INT, leftFace)
+  glDrawElements(drawMode, len(rightFace), GL_UNSIGNED_INT, rightFace)
+  glDrawElements(drawMode, len(bottomFace), GL_UNSIGNED_INT, bottomFace)
+  glDrawElements(drawMode, len(topFace), GL_UNSIGNED_INT, topFace)
   
    # Disable vertex arrays
   glEnableClientState(GL_VERTEX_ARRAY)
@@ -81,26 +90,58 @@ def special(k, x, y):
   global view_rotx, view_roty, view_rotz
   
   if k == GLUT_KEY_UP:
-    view_rotx += 5
+    view_rotx += angleInc
   elif k == GLUT_KEY_DOWN:
-    view_rotx -= 5
+    view_rotx -= angleInc
   elif k == GLUT_KEY_LEFT:
-    view_roty -= 5
+    view_roty -= angleInc
   elif k == GLUT_KEY_RIGHT:
-    view_roty += 5
+    view_roty += angleInc
+  else:
+        return
+  glutPostRedisplay()
+
+def key(k, x, y):
+  global view_posz, drawMode, ortho
+  
+  if k == '=':
+    view_posz += posInc
+  elif k == '-':
+    view_posz -= posInc
+  elif k == 'm':
+    drawMode = GL_LINE_LOOP if drawMode == GL_TRIANGLE_FAN else GL_TRIANGLE_FAN
+  elif k == 'c':
+    if glIsEnabled(GL_CULL_FACE):
+      glDisable(GL_CULL_FACE)
+    else:
+      glEnable(GL_CULL_FACE)
+  elif k == 'f':
+    l = glGetFloatv(GL_CULL_FACE_MODE)
+    if  l == GL_BACK:
+      glCullFace(GL_FRONT)
+    else:
+      glCullFace(GL_BACK)
+  elif k == 'p':
+    ortho = not ortho
+    reshape(windowWidth, windowHeight)
   else:
         return
   glutPostRedisplay()
     
 def reshape(width, height):
+  global windowWidth, windowHeight
+  windowWidth, windowHeight = width, height
+  
   # Setup the drawing area (bottomX bottomY, topX, topY)
   glViewport(0, 0, width, height)
 
   # Define the clipping volume (left, right, bottom, top, near, far)
   glMatrixMode(GL_PROJECTION)
   glLoadIdentity()
-  glOrtho(-1, 1, -1, 1, -1, 200)
-  glFrustum(-1, 1, -1, 1, 1, 201)
+  if ortho:
+    glOrtho(-1, 1, -1, 1, -1, 200)
+  else:
+    glFrustum(-1, 1, -1, 1, 1, 201)
 
   # Initialize the model-view matrix
   glMatrixMode(GL_MODELVIEW)
@@ -121,11 +162,16 @@ def init():
 
 glutInit(sys.argv)
 glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH)
-glutInitWindowSize(1000, 1000)
-glutInitWindowPosition(100, 100)
+
+screenWidth, screenHeight = (glutGet(GLUT_SCREEN_WIDTH), glutGet(GLUT_SCREEN_HEIGHT))
+windowWidth, windowHeight = (screenWidth/2, screenHeight/2)
+
+glutInitWindowSize(windowWidth, windowHeight)
+glutInitWindowPosition((screenWidth-windowWidth)/2, (screenHeight-windowHeight)/2)
 glutCreateWindow("3D Box")
 init()
 glutSpecialFunc(special)
+glutKeyboardFunc(key)
 glutReshapeFunc(reshape)
 OpenGL.GLUT.glutDisplayFunc(display)
 glutMainLoop()
