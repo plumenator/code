@@ -31,7 +31,7 @@ t = 10
 # Position increment
 inc = 25
 
-def display(i):
+def display(dummy=None):
    # clear all pixels 
    glClear(GL_COLOR_BUFFER_BIT)
 
@@ -119,6 +119,6 @@ glutInitWindowPosition(100, 100)
 glutCreateWindow("Bouncing rectangle")
 init()
 glutReshapeFunc(reshape)
-OpenGL.GLUT.glutDisplayFunc(display, None)
-glutTimerFunc(t, display, 1)
+OpenGL.GLUT.glutDisplayFunc(display)
+glutTimerFunc(t, display, None)
 glutMainLoop()
