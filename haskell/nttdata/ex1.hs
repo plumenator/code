@@ -5,5 +5,5 @@ main = do
    putStr . unlines . filterAddHeader . lines $ cn
 filterAddHeader :: [String] -> [String]
 filterAddHeader = f where
-    f lis = map g (zip [1..] lis)
+    f lis = map g $ zip [1..] lis
     g li = (show $ fst li) ++ (snd li)
