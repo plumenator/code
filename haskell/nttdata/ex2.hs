@@ -8,5 +8,5 @@ main = do
 addLineNumber :: [String] -> StateT Int IO [String]
 addLineNumber = f where
   f     = mapM g
-  g li = liftM(h li) get
+  g li = put 2 >> liftM(h li) get
   h li ln = show ln ++ " " ++ li
