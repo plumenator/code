@@ -23,4 +23,4 @@ parsed (x:xs) = do
              " '"      -> (' ':(evalState (parsed xs) '\''))
              "\"'"     -> ('"':(evalState (parsed xs) '\''))
              "''"      -> ('\'':(evalState (parsed xs) ' '))
-             _            -> (x:(evalState (parsed xs) st))
+             _         -> (x:(evalState (parsed xs) st))
