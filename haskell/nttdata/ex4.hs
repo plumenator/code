@@ -14,13 +14,13 @@ parsed [] = return []
 parsed (x:xs) = do 
   st <- get
   return $ case (x:st:[]) of
-             "  "      -> (',':(evalState (parsed xs) ' '))
-             "\" "     -> ('"':(evalState (parsed xs) '"'))
-             "' "      -> ('\'':(evalState (parsed xs) '\''))
-             " \""     -> (' ':(evalState (parsed xs) '"'))
-             "\"\""    -> ('"':(evalState (parsed xs) ' '))
-             "'\""     -> ('\'':(evalState (parsed xs) '"'))
-             " '"      -> (' ':(evalState (parsed xs) '\''))
-             "\"'"     -> ('"':(evalState (parsed xs) '\''))
-             "''"      -> ('\'':(evalState (parsed xs) ' '))
-             _         -> (x:(evalState (parsed xs) st))
+             "  "      -> (','  :(evalState (parsed xs) ' '))
+             "\" "     -> ('"'  :(evalState (parsed xs) '"'))
+             "' "      -> ('\'' :(evalState (parsed xs) '\''))
+             " \""     -> (' '  :(evalState (parsed xs) '"'))
+             "\"\""    -> ('"'  :(evalState (parsed xs) ' '))
+             "'\""     -> ('\'' :(evalState (parsed xs) '"'))
+             " '"      -> (' '  :(evalState (parsed xs) '\''))
+             "\"'"     -> ('"'  :(evalState (parsed xs) '\''))
+             "''"      -> ('\'' :(evalState (parsed xs) ' '))
+             _         -> (x    :(evalState (parsed xs) st))
