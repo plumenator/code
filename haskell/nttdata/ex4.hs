@@ -7,10 +7,20 @@ main = do
   cn     <- getContents
   putStr .unlines .map splitWords . lines $cn
 splitWords :: String -> String
-splitWords str = f where
-  f = evalState (parsed str) ' '
+splitWords str = evalState (parsed str) ' '
 
+parsed :: String -> State Char String
 parsed [] = return []
 parsed (x:xs) = do 
-  s <- get
-  return (if x /= s then (x:(evalState (parsed xs) s)) else (',':(evalState (parsed xs) s)))
+  st <- get
+  return $ case (x:st:[]) of
+             "  "      -> (',':(evalState (parsed xs) ' '))
+             "\" "     -> ('"':(evalState (parsed xs) '"'))
+             "' "      -> ('\'':(evalState (parsed xs) '\''))
+             " \""     -> (' ':(evalState (parsed xs) '"'))
+             "\"\""    -> ('"':(evalState (parsed xs) ' '))
+             "'\""     -> ('\'':(evalState (parsed xs) '"'))
+             " '"      -> (' ':(evalState (parsed xs) '\''))
+             "\"'"     -> ('"':(evalState (parsed xs) '\''))
+             "''"      -> ('\'':(evalState (parsed xs) ' '))
+             _            -> (x:(evalState (parsed xs) st))
