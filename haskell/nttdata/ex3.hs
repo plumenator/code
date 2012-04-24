@@ -22,9 +22,11 @@ parsePt = mapM g where
       put (drop width s)
       return (take width s)
 
+-- Discards trailing non numeric characters
 str2int :: String -> String
 str2int = takeWhile (\x -> x >= '0' && x <= '9')
-          
+
+-- Assumes the input contains only legal hex digits
 hex2int :: String -> String
 hex2int str = show (hex2int' $ reverse str)
     where
