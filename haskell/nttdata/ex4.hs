@@ -1,5 +1,4 @@
 module Main where
-import System.Environment
 
 main = do
   cn <- getContents
