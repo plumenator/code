@@ -9,15 +9,16 @@ splitWords  =  parsed ' '
 
 parsed :: Char -> String -> String
 parsed _ "" = ""
-parsed st (x:xs) =
-  case (x:st:[]) of
-    "  "   -> ','  : parsed ' '  xs
-    "\" "  -> '"'  : parsed '"'  xs
-    "' "   -> '\'' : parsed '\'' xs
-    " \""  -> ' '  : parsed '"'  xs
-    "\"\"" -> '"'  : parsed ' '  xs
-    "'\""  -> '\'' : parsed '"'  xs
-    " '"   -> ' '  : parsed '\'' xs
-    "\"'"  -> '"'  : parsed '\'' xs
-    "''"   -> '\'' : parsed ' '  xs
-    _      -> x    : parsed st   xs
+parsed st (x:xs) = res : parsed newSt xs
+  where (res, newSt) = 
+          case (x:st:[]) of
+            "  "   -> (',', ' ')
+            "\" "  -> ('"', '"')
+            "' "   -> ('\'', '\'')
+            " \""  -> (' ', '"')
+            "\"\"" -> ('"', ' ')
+            "'\""  -> ('\'', '"')
+            " '"   -> (' ', '\'')
+            "\"'"  -> ('"', '\'')
+            "''"   -> ('\'', ' ')
+            _      -> (x, st)
