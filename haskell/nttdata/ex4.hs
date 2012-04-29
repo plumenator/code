@@ -1,7 +1,5 @@
 module Main where
-import Data.List(intercalate)
 import System.Environment
-import Control.Monad.State
 
 main = do
   cn <- getContents
