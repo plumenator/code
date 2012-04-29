@@ -7,20 +7,19 @@ main = do
   cn     <- getContents
   putStr .unlines .map splitWords . lines $cn
 splitWords :: String -> String
-splitWords str = evalState (parsed str) ' '
+splitWords str =  parsed str ' '
 
-parsed :: String -> State Char String
-parsed [] = return []
-parsed (x:xs) = do 
-  st <- get
-  return $ case (x:st:[]) of
-             "  "      -> (','  :(evalState (parsed xs) ' '))
-             "\" "     -> ('"'  :(evalState (parsed xs) '"'))
-             "' "      -> ('\'' :(evalState (parsed xs) '\''))
-             " \""     -> (' '  :(evalState (parsed xs) '"'))
-             "\"\""    -> ('"'  :(evalState (parsed xs) ' '))
-             "'\""     -> ('\'' :(evalState (parsed xs) '"'))
-             " '"      -> (' '  :(evalState (parsed xs) '\''))
-             "\"'"     -> ('"'  :(evalState (parsed xs) '\''))
-             "''"      -> ('\'' :(evalState (parsed xs) ' '))
-             _         -> (x    :(evalState (parsed xs) st))
+parsed :: String -> Char -> String
+parsed "" _ = ""
+parsed (x:xs) st =
+  case (x:st:[]) of
+    "  "      -> (','  :(parsed xs ' '))
+    "\" "     -> ('"'  :(parsed xs '"'))
+    "' "      -> ('\'' :(parsed xs '\''))
+    " \""     -> (' '  :(parsed xs '"'))
+    "\"\""    -> ('"'  :(parsed xs ' '))
+    "'\""     -> ('\'' :(parsed xs '"'))
+    " '"      -> (' '  :(parsed xs '\''))
+    "\"'"     -> ('"'  :(parsed xs '\''))
+    "''"      -> ('\'' :(parsed xs ' '))
+    _         -> (x    :(parsed xs st))
