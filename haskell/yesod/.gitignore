@@ -1,0 +1,8 @@
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3
+.stack-work/
+*.aes
+static/tmp/
+yesod-devel/
+dist/

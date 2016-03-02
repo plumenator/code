@@ -1,0 +1,13 @@
+DefaultEnvironment(CCFLAGS = '-std=c++11 -Wall -Werror -g')
+
+Program('MaximumSubarray', 'MaximumSubarray.cpp')
+
+Program('MinimumPathSum', 'MinimumPathSum.cpp')
+
+Program('TwoSum', 'TwoSum.cpp')
+
+Program('ReverseInteger', 'ReverseInteger.cpp')
+
+Program('NQueens', 'NQueens.cpp')
+
+Program('ValidPalindrome', 'ValidPalindrome.cpp')

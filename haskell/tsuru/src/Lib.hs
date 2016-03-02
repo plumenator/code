@@ -1,6 +1,8 @@
 module Lib
-    ( someFunc
+    ( pcapHeader
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import Data.ByteString.Lazy as B (ByteString, take)
+
+pcapHeader :: B.ByteString -> B.ByteString
+pcapHeader = B.take 24

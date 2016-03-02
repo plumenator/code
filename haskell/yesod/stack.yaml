@@ -1,0 +1,8 @@
+extra-deps: []
+resolver: lts-2.19
+flags:
+  Hello:
+    dev: false
+    library-only: false
+packages:
+- '.'
