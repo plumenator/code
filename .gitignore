@@ -1,3 +1,6 @@
 *~
 *.o
 *.sconsign.dblite
+Cargo.lock
+target/
+target-install/
