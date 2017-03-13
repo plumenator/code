@@ -90,10 +90,14 @@ public:
                 else
                     ++free;
             }
-            else if (prev == 0)
+            else if (prev == 0) {
                 m_free.push_back(&curr - free, free);
+                free = 0;
+            }
             prev = curr;
         }
+        if (free != 0)
+            m_free.push_back(m_data + m_size - free, free);
     }
     
     void print() const {
@@ -120,7 +124,8 @@ public:
             defragment(init, end, size);
             init += size;
         });
-        m_free = List<T>(m_data, init - m_data);
+        if (init != m_data)
+            m_free = List<T>(m_data, init - m_data);
         return *this;
     }
     
@@ -150,10 +155,65 @@ int main() {
         0, 0, 0, 0, 0, // free block of 5
         'G', 'U', 'O', 'U', // occupied block of 4
         0, 0, // free block of 2
-        'S', '!'
+        'S', '!',
     }; // occupied block of 2
     MemoryManager<int> mm(array, 21);
     mm.print();
     mm.defragment().print();
+
+    int array2[] = {
+        0, 0, 0, // free block of 3
+        0, 0, 0, 0, 0, // free block of 5
+        0, 0, // free block of 2
+    };
+    MemoryManager<int> mm2(array2, 10);
+    mm2.print();
+    mm2.defragment().print();
+
+    int array3[] = {
+        'C', 'O', 'N', 'T', 'I', // occupied block of 5
+        'G', 'U', 'O', 'U', // occupied block of 4
+        'S', '!',
+    }; // occupied block of 2
+    MemoryManager<int> mm3(array3, 11);
+    mm3.print();
+    mm3.defragment().print();
+
+    int array4[] = {
+        0, 0, 0, // free block of 3
+        0, 0, 0, 0, 0, // free block of 5
+        0, 0, // free block of 2
+        'C', 'O', 'N', 'T', 'I', // occupied block of 5
+        'G', 'U', 'O', 'U', // occupied block of 4
+        'S', '!',
+    }; // occupied block of 2
+    MemoryManager<int> mm4(array4, 21);
+    mm4.print();
+    mm4.defragment().print();
+
+    int array5[] = {
+        'C', 'O', 'N', 'T', 'I', // occupied block of 5
+        'G', 'U', 'O', 'U', // occupied block of 4
+        'S', '!', // occupied block of 2
+        0, 0, 0, // free block of 3
+        0, 0, 0, 0, 0, // free block of 5
+        0, 0, // free block of 2
+    };
+    MemoryManager<int> mm5(array5, 21);
+    mm5.print();
+    mm5.defragment().print();
+
+    int array6[] = {
+        'C', 'O', 'N', 'T', 'I', // occupied block of 5
+        0, 0, 0, // free block of 3
+        'G', 'U', 'O', 'U', // occupied block of 4
+        0, 0, 0, 0, 0, // free block of 5
+        'S', '!', // occupied block of 2
+        0, 0, // free block of 2
+    };
+    MemoryManager<int> mm6(array6, 21);
+    mm6.print();
+    mm6.defragment().print();
+
     return 0;
 }
