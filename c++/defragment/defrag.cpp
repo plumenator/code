@@ -10,7 +10,6 @@ struct Node {
 template <typename T>
 class List {
 public:
-
     List() = default;
     
     List(T* init, size_t size) {
@@ -29,18 +28,6 @@ public:
         other.last = nullptr;
     }
     
-    Node<T>* front() {
-        return first;
-    }
-
-    const Node<T>* front() const {
-        return first;
-    }
-    
-    Node<T>* back() {
-        return last;
-    }
-    
     void push_back(T* init, size_t size) {
         auto* node = new Node<T>();
         node->init = init;
@@ -57,6 +44,27 @@ public:
         }
     }
     
+    template<typename CallableT>
+    void foreach(CallableT callable) const {
+        for (auto it = first; it != nullptr; ) {
+            callable(*it);
+            it = it->next;
+        }
+    }
+    
+    void print(const char* sep) const {
+        for (auto it = first; it != nullptr; ) {
+            std::cout << it->size;
+            it = it->next;
+            if (it != nullptr)
+                std::cout << ", ";
+        }
+    }
+    
+private:
+    Node<T>* first = nullptr;
+    Node<T>* last = nullptr;
+
     void clear() {
         for (auto it = first; it != nullptr; ) {
             auto* next = it->next;
@@ -64,10 +72,6 @@ public:
             it = next;
         }
     }
-    
-private:
-    Node<T>* first = nullptr;
-    Node<T>* last = nullptr;
 };
 
 template <typename T>
@@ -77,47 +81,45 @@ public:
     : m_data(array)
     , m_size(size) {
         T prev = 1;
+        size_t free = 0;
         for (int i = 0; i < m_size; ++i) {
             auto& curr = m_data[i];
             if (curr == 0) {
                 if (prev != 0)
-                    m_free.push_back(&curr, 1);
+                    free = 1;
                 else
-                    m_free.back()->size += 1;
+                    ++free;
             }
+            else if (prev == 0)
+                m_free.push_back(&curr - free, free);
             prev = curr;
         }
     }
     
     void print() const {
         std::cout << "Free block lengths: ";
-        for (auto it = m_free.front(); it != nullptr; ) {
-            std::cout << it->size;
-            it = it->next;
-            if (it != nullptr)
-                std::cout << ", ";
-        }
+        m_free.print(",");
         std::cout << " | Occupied block contents: ";
         auto* init = m_data;
-        for (auto it = m_free.front(); it != nullptr; it = it->next) {
-            auto* end = it->init;
+        m_free.foreach([&] (const Node<T>& it) {
+            auto* end = it.init;
             print(init, end);
-            auto* next = end + it->size;
+            auto* next = end + it.size;
             if (init != end && next != m_data + m_size)
                 std::cout << ", ";
             init = next;
-        }
+        });
         print(init, m_data + m_size);
         std::cout << std::endl;
     }
     
     MemoryManager<T>& defragment() {
         auto* init = m_data;
-        for (auto it = m_free.front(); it != nullptr; it = it->next) {
-            auto* end = it->init;
-            defragment(init, end, it->size);
-            init += it->size;
-        }
+        m_free.foreach([&] (const Node<T>& it) {
+            auto* end = it.init;
+            defragment(init, end, it.size);
+            init += it.size;
+        });
         m_free = List<T>(m_data, init - m_data);
         return *this;
     }
