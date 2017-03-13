@@ -43,6 +43,13 @@ public:
     }
     
     MemoryManager<T>& defragment() {
+        auto* init = m_data;
+        for (auto it = m_free.cbegin(); it != m_free.cend(); ++it) {
+            auto* end = it->first;
+            defragment(init, end, it->second);
+            init += it->second;
+        }
+        m_free = {{m_data, init - m_data}};
         return *this;
     }
     
@@ -56,6 +63,13 @@ private:
             std::cout << static_cast<char>(*curr);
         }
     }
+
+    void defragment(T* init, T* end, size_t size) {
+        for (auto* curr = end - 1; curr >= init; --curr) {
+            *(curr + size) = *curr;
+        }
+    }
+
 };
 
 int main() {
