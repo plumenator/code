@@ -1,5 +1,74 @@
 #include<iostream>
-#include<list>
+
+template <typename T>
+struct Node {
+    T* init = nullptr;
+    size_t size = 0;
+    Node* next = nullptr;
+};
+
+template <typename T>
+class List {
+public:
+
+    List() = default;
+    
+    List(T* init, size_t size) {
+        push_back(init, size);
+    }
+    
+    ~List() {
+        clear();
+    }
+    
+    List& operator =(List&& other) {
+        clear();
+        first = other.first;
+        last = other.last;
+        other.first = nullptr;
+        other.last = nullptr;
+    }
+    
+    Node<T>* front() {
+        return first;
+    }
+
+    const Node<T>* front() const {
+        return first;
+    }
+    
+    Node<T>* back() {
+        return last;
+    }
+    
+    void push_back(T* init, size_t size) {
+        auto* node = new Node<T>();
+        node->init = init;
+        node->size = size;
+        node->next = nullptr;
+        
+        if (first == nullptr) { 
+            first = node;
+            last = node;
+        }
+        else {
+            last->next = node;
+            last = node;
+        }
+    }
+    
+    void clear() {
+        for (auto it = first; it != nullptr; ) {
+            auto* next = it->next;
+            delete it;
+            it = next;
+        }
+    }
+    
+private:
+    Node<T>* first = nullptr;
+    Node<T>* last = nullptr;
+};
 
 template <typename T>
 class MemoryManager {
@@ -12,9 +81,9 @@ public:
             auto& curr = m_data[i];
             if (curr == 0) {
                 if (prev != 0)
-                    m_free.push_back({&curr, 1});
+                    m_free.push_back(&curr, 1);
                 else
-                    m_free.back().second += 1;
+                    m_free.back()->size += 1;
             }
             prev = curr;
         }
@@ -22,18 +91,18 @@ public:
     
     void print() const {
         std::cout << "Free block lengths: ";
-        for (auto it = m_free.cbegin(); it != m_free.cend(); ) {
-            std::cout << it->second;
-            ++it;
-            if (it != m_free.cend())
+        for (auto it = m_free.front(); it != nullptr; ) {
+            std::cout << it->size;
+            it = it->next;
+            if (it != nullptr)
                 std::cout << ", ";
         }
         std::cout << " | Occupied block contents: ";
         auto* init = m_data;
-        for (auto it = m_free.cbegin(); it != m_free.cend(); ++it) {
-            auto* end = it->first;
+        for (auto it = m_free.front(); it != nullptr; it = it->next) {
+            auto* end = it->init;
             print(init, end);
-            auto* next = end + it->second;
+            auto* next = end + it->size;
             if (init != end && next != m_data + m_size)
                 std::cout << ", ";
             init = next;
@@ -44,19 +113,19 @@ public:
     
     MemoryManager<T>& defragment() {
         auto* init = m_data;
-        for (auto it = m_free.cbegin(); it != m_free.cend(); ++it) {
-            auto* end = it->first;
-            defragment(init, end, it->second);
-            init += it->second;
+        for (auto it = m_free.front(); it != nullptr; it = it->next) {
+            auto* end = it->init;
+            defragment(init, end, it->size);
+            init += it->size;
         }
-        m_free = {{m_data, init - m_data}};
+        m_free = List<T>(m_data, init - m_data);
         return *this;
     }
     
 private:
     T* m_data = nullptr;
     size_t m_size = 0;
-    std::list<std::pair<T*, size_t>> m_free;
+    List<T> m_free;
     
     void print(T* init, T* end) const {
         for (auto* curr = init; curr != end; ++curr) {
