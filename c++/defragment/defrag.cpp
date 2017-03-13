@@ -47,7 +47,7 @@ public:
     template<typename CallableT>
     void foreach(CallableT callable) const {
         for (auto it = first; it != nullptr; ) {
-            callable(*it);
+            callable(it->init, it->size);
             it = it->next;
         }
     }
@@ -101,10 +101,10 @@ public:
         m_free.print(",");
         std::cout << " | Occupied block contents: ";
         auto* init = m_data;
-        m_free.foreach([&] (const Node<T>& it) {
-            auto* end = it.init;
+        m_free.foreach([&] (T* free, size_t size) {
+            auto* end = free;
             print(init, end);
-            auto* next = end + it.size;
+            auto* next = end + size;
             if (init != end && next != m_data + m_size)
                 std::cout << ", ";
             init = next;
@@ -115,10 +115,10 @@ public:
     
     MemoryManager<T>& defragment() {
         auto* init = m_data;
-        m_free.foreach([&] (const Node<T>& it) {
-            auto* end = it.init;
-            defragment(init, end, it.size);
-            init += it.size;
+        m_free.foreach([&] (T* free, size_t size) {
+            auto* end = free;
+            defragment(init, end, size);
+            init += size;
         });
         m_free = List<T>(m_data, init - m_data);
         return *this;
