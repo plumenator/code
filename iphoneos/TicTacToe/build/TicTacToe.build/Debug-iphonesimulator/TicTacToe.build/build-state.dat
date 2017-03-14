@@ -1,627 +1,0 @@
-TTicTacToe
-v7
-r0
-t290511844.711862
-cCheck dependencies
-cProcessInfoPlistFile /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
-cCompileXIB /Users/plumenator/code/iphoneos/TicTacToe/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/TicTacToe.app/select.au Audio/select.au
-cCpResource build/Debug-iphonesimulator/TicTacToe.app/intro.au Audio/intro.au
-cCpResource build/Debug-iphonesimulator/TicTacToe.app/drag.au Audio/drag.au
-cCpResource build/Debug-iphonesimulator/TicTacToe.app/tie.au Audio/tie.au
-cCpResource build/Debug-iphonesimulator/TicTacToe.app/win.au Audio/win.au
-cProcessPCH /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o /Users/plumenator/code/iphoneos/TicTacToe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Board.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Pane.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeCell.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/GameController.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Player.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe normal i386
-cGenerateDSYMFile /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-cTouch /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AF0C10000000000000000EE
-t1257292032
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004ABDC9F500000000000120D0
-t1253951989
-s73936
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004ABDC9F400000000000000EB
-t1253951988
-s235
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
-c00000000448600480000000000000556
-t1149632584
-s1366
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004ABDC8C50000000000000A22
-t1253951685
-s2594
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
-c000000004ABDC8C4000000000000041D
-t1253951684
-s1053
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004ABDC881000000000000F342
-t1253951617
-s62274
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004ABDC9A7000000000000046B
-t1253951911
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004ABDC85300000000000004FE
-t1253951571
-s1278
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Audio/drag.au
-c000000003DD1AA4F0000000000000203
-t1037150799
-s515
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Audio/intro.au
-c000000003DDB0FF2000000000000BBC8
-t1037766642
-s48072
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Audio/sel.au
-c000000003DC6BE1B00000000000002F7
-t1036434971
-s759
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Audio/select.au
-c000000003DC6BE1B00000000000002F7
-t1036434971
-s759
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Audio/tie.au
-c00000000409993CE000000000000324A
-t1083806670
-s12874
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Audio/win.au
-c000000003DD31A820000000000001E9A
-t1037245058
-s7834
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.h
-c000000004AF7B01A000000000000062F
-t1257746458
-s1583
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i<AVFoundation/AVFoundation.h>
-i"GameController.h"
-i"TicTacToeCell.h"
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m
-c000000004BA0A4C70000000000001B13
-t1268819143
-s6931
-i"Board.h"
-i<CoreGraphics/CoreGraphics.h>
-i"TicTacToeCell.h"
-i<AVFoundation/AVFoundation.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.h
-c000000004AF416AD00000000000002E3
-t1257510573
-s739
-i<Foundation/Foundation.h>
-i"Pane.h"
-i"TicTacToeCell.h"
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m
-c000000004AF7A66A0000000000000FC8
-t1257743978
-s4040
-i"GameController.h"
-i"Board.h"
-i"TicTacToeCell.h"
-i<AVFoundation/AVFoundation.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.h
-c000000004AF3E2C400000000000002C0
-t1257497284
-s704
-i<UIKit/UIKit.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m
-c000000004BA0A51E0000000000001175
-t1268819230
-s4469
-i"Pane.h"
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.h
-c000000004AF7FA1000000000000000DA
-t1257765392
-s218
-i<Foundation/Foundation.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m
-c000000004AF7FA1000000000000000C0
-t1257765392
-s192
-i"Player.h"
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.h
-c000000004AF280650000000000000152
-t1257406565
-s338
-i<UIKit/UIKit.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m
-c000000004AF7B54B000000000000069C
-t1257747787
-s1692
-i"TicTacToeAppDelegate.h"
-i"Pane.h"
-i"Board.h"
-i<CoreGraphics/CoreGraphics.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.h
-c000000004AF51983000000000000029C
-t1257576835
-s668
-i<Foundation/Foundation.h>
-i<CoreData/CoreData.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m
-c000000004AF51941000000000000083C
-t1257576769
-s2108
-i"TicTacToeCell.h"
-
-N/Users/plumenator/code/iphoneos/TicTacToe/MainWindow.xib
-c000000004AF280650000000000001F5D
-t1257406565
-s8029
-
-N/Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch
-c000000004AF2806500000000000000BB
-t1257406565
-s187
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-t1268819043
-s374
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM
-t1268819043
-s102
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist
-t1268818980
-s628
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/MainWindow.nib
-t1257585504
-s1347
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/PkgInfo
-t1268818980
-s8
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-t1268819043
-s49464
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/drag.au
-t1257585504
-s515
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/intro.au
-t1257585504
-s48072
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/sel.au
-t2
-s0
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/select.au
-t1257585504
-s759
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/tie.au
-t1257585504
-s12874
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/win.au
-t1257585504
-s7834
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Board.o
-t1268819042
-s37632
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/GameController.o
-t1268818982
-s20248
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Pane.o
-t1268818982
-s21072
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Player.o
-t1268818982
-s4880
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList
-c000000004AF8071C00000000000003AD
-t1257768732
-s941
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
-t1268818982
-s21608
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeCell.o
-t1268818982
-s13832
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
-t1268818982
-s5956
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Board.plist
-t1257750131
-s275
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/GameController.plist
-t1257750131
-s275
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Pane.plist
-t1257750231
-s275
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeAppDelegate.plist
-t1257750131
-s275
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeCell.plist
-t1257585505
-s275
-
-N/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/main.plist
-t1257585505
-s275
-
-N/Users/plumenator/code/iphoneos/TicTacToe/main.m
-c000000004AF280650000000000000170
-t1257406565
-s368
-i<UIKit/UIKit.h>
-
-N/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-anxhowszqdiaghhbhoibwzfusxxv/TicTacToe_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch.gch
-t1268818981
-s13026768
-
-N/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch.pth
-t1257518636
-s1729076
-
-NTicTacToe-Info.plist
-c000000004AF2842D00000000000003B4
-t1257407533
-s948
-
-CAnalyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m
-s279442931.138377
-e279442931.235944
-r1
-xAnalyze
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m
-lSLF07#2@65"Analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m279442931#279442931#0(0"0(0#0#57"/Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m4300885448#1951"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch --analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Board.plist0#
-
-CAnalyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m
-s279442931.219524
-e279442931.255664
-r1
-xAnalyze
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m
-lSLF07#2@74"Analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m279442931#279442931#0(0"0(0#0#66"/Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m4300885448#1969"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch --analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/GameController.plist0#
-
-CAnalyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m
-s279443031.293096
-e279443031.323672
-r1
-xAnalyze
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m
-lSLF07#2@64"Analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m279443031#279443031#0(0"0(0#0#56"/Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m4300885448#1949"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch --analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/Pane.plist0#
-
-CAnalyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m
-s279442931.106214
-e279442931.138290
-r1
-xAnalyze
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m
-lSLF07#2@80"Analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m279442931#279442931#0(0"0(0#0#72"/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m4300885448#1981"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch --analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeAppDelegate.plist0#
-
-CAnalyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m
-s279278305.411802
-e279278305.442237
-r1
-xAnalyze
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m
-lSLF07#2@73"Analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m279278305#279278305#0(0"0(0#0#65"/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m4300885448#1967"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch --analyze /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/TicTacToeCell.plist0#
-
-CAnalyze /Users/plumenator/code/iphoneos/TicTacToe/main.m
-s279278305.302893
-e279278305.331846
-r1
-xAnalyze
-x/Users/plumenator/code/iphoneos/TicTacToe/main.m
-lSLF07#2@56"Analyze /Users/plumenator/code/iphoneos/TicTacToe/main.m279278305#279278305#0(0"0(0#0#48"/Users/plumenator/code/iphoneos/TicTacToe/main.m4300885448#1941"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch --analyze /Users/plumenator/code/iphoneos/TicTacToe/main.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/StaticAnalyzer/normal/i386/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies290511844#290511844#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Board.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511842.861328
-e290511842.979306
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Board.o
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m290511842#290511842#0(0"0(0#0#57"/Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m4300911832#1942"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/Classes/Board.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Board.o0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/GameController.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511782.352959
-e290511782.483648
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/GameController.o
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m290511782#290511782#0(0"0(0#0#66"/Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m4300911832#1960"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/Classes/GameController.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/GameController.o0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Pane.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511782.219367
-e290511782.311124
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Pane.o
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m290511782#290511782#0(0"0(0#0#56"/Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m4300911832#1940"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/Classes/Pane.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Pane.o0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Player.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511782.405677
-e290511782.484319
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Player.o
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m290511782#290511782#0(0"0(0#0#58"/Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m4300911832#1944"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/Classes/Player.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/Player.o0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511781.904082
-e290511782.219282
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m290511781#290511782#0(0"0(0#0#72"/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m4300911832#1972"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeAppDelegate.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeAppDelegate.o0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeCell.o /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511782.311205
-e290511782.405586
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeCell.o
-x/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m290511782#290511782#0(0"0(0#0#65"/Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m3343200706627720192#1958"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/Classes/TicTacToeCell.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToeCell.o0#
-
-CCompileC build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o /Users/plumenator/code/iphoneos/TicTacToe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511781.902964
-e290511782.060888
-r1
-xCompileC
-xbuild/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o
-x/Users/plumenator/code/iphoneos/TicTacToe/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/plumenator/code/iphoneos/TicTacToe/main.m290511781#290511782#0(0"0(0#0#48"/Users/plumenator/code/iphoneos/TicTacToe/main.m4300911832#1932"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -include /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch -c /Users/plumenator/code/iphoneos/TicTacToe/main.m -o /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/plumenator/code/iphoneos/TicTacToe/MainWindow.xib
-s279278304.364688
-e279278304.594003
-r1
-xCompileXIB
-x/Users/plumenator/code/iphoneos/TicTacToe/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib279278304#279278304#0(0"0(0#0#56"/Users/plumenator/code/iphoneos/TicTacToe/MainWindow.xib4300885448#493"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/MainWindow.nib /Users/plumenator/code/iphoneos/TicTacToe/MainWindow.xib0#
-
-CCpResource build/Debug-iphonesimulator/TicTacToe.app/drag.au Audio/drag.au
-s279278304.369654
-e279278304.378652
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TicTacToe.app/drag.au
-xAudio/drag.au
-lSLF07#2@18"Copy Audio/drag.au279278304#279278304#0(0"0(0#0#55"/Users/plumenator/code/iphoneos/TicTacToe/Audio/drag.au4300885448#468"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/TicTacToe/Audio/drag.au /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
-
-CCpResource build/Debug-iphonesimulator/TicTacToe.app/intro.au Audio/intro.au
-s279278304.369073
-e279278304.374719
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TicTacToe.app/intro.au
-xAudio/intro.au
-lSLF07#2@19"Copy Audio/intro.au279278304#279278304#0(0"0(0#0#56"/Users/plumenator/code/iphoneos/TicTacToe/Audio/intro.au4300885448#469"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/TicTacToe/Audio/intro.au /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
-
-CCpResource build/Debug-iphonesimulator/TicTacToe.app/sel.au Audio/sel.au
-r0
-
-CCpResource build/Debug-iphonesimulator/TicTacToe.app/select.au Audio/select.au
-s279278304.365198
-e279278304.371115
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TicTacToe.app/select.au
-xAudio/select.au
-lSLF07#2@20"Copy Audio/select.au279278304#279278304#0(0"0(0#0#57"/Users/plumenator/code/iphoneos/TicTacToe/Audio/select.au4300885448#470"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/TicTacToe/Audio/select.au /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
-
-CCpResource build/Debug-iphonesimulator/TicTacToe.app/tie.au Audio/tie.au
-s279278304.370113
-e279278304.378754
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TicTacToe.app/tie.au
-xAudio/tie.au
-lSLF07#2@17"Copy Audio/tie.au279278304#279278304#0(0"0(0#0#54"/Users/plumenator/code/iphoneos/TicTacToe/Audio/tie.au4300885448#467"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/TicTacToe/Audio/tie.au /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
-
-CCpResource build/Debug-iphonesimulator/TicTacToe.app/win.au Audio/win.au
-s279278304.370561
-e279278304.382306
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TicTacToe.app/win.au
-xAudio/win.au
-lSLF07#2@17"Copy Audio/win.au279278304#279278304#0(0"0(0#0#54"/Users/plumenator/code/iphoneos/TicTacToe/Audio/win.au4300885448#467"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/plumenator/code/iphoneos/TicTacToe/Audio/win.au /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
-
-CGenerateDSYMFile /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-s290511843.543857
-e290511843.612667
-r1
-xGenerateDSYMFile
-x/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM
-x/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TicTacToe.app.dSYM build/Debug-iphonesimulator/TicTacToe.app/TicTacToe290511843#290511843#0(0"0(0#0#93"/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe4300911832#398"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe -o /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app.dSYM0#
-
-CLd /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe normal i386
-s290511842.979392
-e290511843.543760
-r1
-xLd
-x/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe
-xnormal
-xi386
-lSLF07#2@98"Link /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe290511842#290511843#0(0"0(0#0#0"4300911832#913"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -filelist /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/Objects-normal/i386/TicTacToe.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/TicTacToe0#
-
-CProcessInfoPlistFile /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist TicTacToe-Info.plist
-s290511780.128010
-e290511780.177651
-r1
-xProcessInfoPlistFile
-x/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist
-xTicTacToe-Info.plist
-lSLF07#2@28"Process TicTacToe-Info.plist290511780#290511780#0(0"0(0#0#62"/Users/plumenator/code/iphoneos/TicTacToe/TicTacToe-Info.plist27584981513797680#494"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TicTacToe-Info.plist -genpkginfo /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app/Info.plist0#
-
-CProcessPCH /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-anxhowszqdiaghhbhoibwzfusxxv/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s279278304.594108
-e279278305.067803
-r1
-xProcessPCH
-x/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-anxhowszqdiaghhbhoibwzfusxxv/TicTacToe_Prefix.pch.gch
-xTicTacToe_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile TicTacToe_Prefix.pch279278304#279278305#0(0"0(0#0#62"/Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch4300885448#1819"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -c /Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-anxhowszqdiaghhbhoibwzfusxxv/TicTacToe_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch.gch TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s290511780.178210
-e290511781.902769
-r1
-xProcessPCH
-x/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch.gch
-xTicTacToe_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile TicTacToe_Prefix.pch290511780#290511781#0(0"0(0#0#62"/Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch4300911832#1819"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -c /Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-dmeofamgwttoogfhbqkdcvsoqsns/TicTacToe_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch.pth TicTacToe_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s279211435.961364
-e279211436.204039
-r1
-xProcessPCH
-x/var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch.pth
-xTicTacToe_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@31"Precompile TicTacToe_Prefix.pch279211435#279211436#0(0"0(0#0#62"/Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch4300885448#1810"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-generated-files.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-own-target-headers.hmap -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-all-target-headers.hmap -iquote /Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/TicTacToe-project-headers.hmap -F/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator -I/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/include -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources/i386 -I/Users/plumenator/code/iphoneos/TicTacToe/build/TicTacToe.build/Debug-iphonesimulator/TicTacToe.build/DerivedSources -c /Users/plumenator/code/iphoneos/TicTacToe/TicTacToe_Prefix.pch -o /var/folders/Wk/WkKJoCIYHZSeShq7puzrHU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TicTacToe_Prefix-eddxiekzbnfzquausbfbqwlavtym/TicTacToe_Prefix.pch.pth0#
-
-CTouch /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-s290511843.612749
-e290511843.624095
-r1
-xTouch
-x/Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app
-lSLF07#2@89"Touch /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app290511843#290511843#0(0"0(0#0#0"4300911832#286"    cd /Users/plumenator/code/iphoneos/TicTacToe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/plumenator/code/iphoneos/TicTacToe/build/Debug-iphonesimulator/TicTacToe.app0#
-
